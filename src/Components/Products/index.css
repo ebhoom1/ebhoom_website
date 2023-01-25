@@ -1,0 +1,23 @@
+.blue-box {
+  background-color: rgb(198, 253, 253);
+  padding: 20px;
+  border-radius: 20px;
+  color: #236a80;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.blue-box-list {
+  padding-left: 17px;
+  color: #236a80;
+  font-family: "Euclid Circular B";
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.blue-box-head {
+  color: #236a80;
+  font-family: "Euclid Circular B";
+  font-size: 30px;
+  font-weight: 600;
+}

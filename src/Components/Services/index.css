@@ -1,0 +1,78 @@
+.services-head1 {
+  color: #162328;
+  font-family: "Euclid Circular B";
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.text-blue {
+  color: #236a80;
+}
+
+.wms-desc {
+  color: #162328;
+  font-family: "Euclid Circular B";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.wms-head {
+  color: #236a80;
+  font-family: "Euclid Circular B";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.wms-head2 {
+  color: #162328;
+  font-family: "Euclid Circular B";
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.input-field {
+  background-color: #ebebeb;
+  border: none;
+  height: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Euclid Circular B";
+  padding: 5px 30px;
+}
+
+.demo-button {
+  background-color: #3fc060;
+  padding: 5px 10px;
+  border: none;
+  height: 40px;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: "Euclid Circular B";
+}
+.demo-button:hover {
+  background-color: #37a553;
+}
+
+.services-head {
+  color: #162328;
+  font-family: "Euclid Circular B";
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.services-desc {
+  color: #162328;
+  font-family: "Euclid Circular B";
+  font-size: 14px;
+  font-weight: 400;
+}
+.service-card {
+  height: auto;
+}
+
+.services-head3 {
+  color: #162328;
+  font-family: "Euclid Circular B";
+  font-size: 16px;
+  font-weight: 500;
+}

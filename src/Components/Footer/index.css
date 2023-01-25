@@ -1,0 +1,13 @@
+.footer {
+  background-image: url("/public/assets/images/footer.png");
+  background-size: cover;
+  height: 40vh;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-family: "Euclid Circular B";
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}

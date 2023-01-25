@@ -1,0 +1,11 @@
+.green-card {
+  background: linear-gradient(to bottom, #83d475, #abe098);
+  padding: 30px 0px;
+}
+
+.about-caption {
+  font-family: "Euclid Circular B";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
