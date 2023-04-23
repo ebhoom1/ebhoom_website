@@ -53,7 +53,7 @@ export default class Products extends Component {
 
                 <p className="wms-desc">
                   Already using our product?{" "}
-                  <a href="http://www.wms.ebhoom.com" target="__blank">
+                  <a href="http://admin.ebhoom.com" target="__blank">
                     SignIn
                   </a>
                 </p>
