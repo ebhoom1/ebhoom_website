@@ -44,7 +44,7 @@ export default class Products extends Component {
             <div className="row">
               <div className="col-12 col-lg-6  mb-3">
                 <h1 className="wms-head mb-3 text-blue">
-                  EBHOOM Control &amp; Monitor System
+                  EBHOOM Water Treatment Management System
                 </h1>
                 <p className="wms-desc">
                   A complete solution for backend monitoring and control of your
@@ -53,7 +53,7 @@ export default class Products extends Component {
 
                 <p className="wms-desc">
                   Already using our product?{" "}
-                  <a href="http://admin.ebhoom.com" target="__blank">
+                  <a href="https://admin.ebhoom.com" target="__blank">
                     SignIn
                   </a>
                 </p>
@@ -250,14 +250,7 @@ export default class Products extends Component {
          {/* go green  */}
 
          <div>
-          <div className="container">
-            <div className="row">
-             
-              <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mb-3">
-                <h4 className=" mb-3">
-                 Coming soon 
-                 
-                </h4>
+    
               </div>
               <div className="col-12 col-lg-6  text-center">
                 <div class="ratio ratio-16x9">
