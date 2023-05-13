@@ -249,9 +249,9 @@ export default class Products extends Component {
 
          {/* go green  */}
 
-         <div>
+         
     
-              </div>
+            
               <div className="col-12 col-lg-6  text-center">
                 <div class="ratio ratio-16x9">
                   <iframe
@@ -261,9 +261,8 @@ export default class Products extends Component {
                   ></iframe>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+   
+          
         {/* go green ends */}
 
         {/* divider */}
