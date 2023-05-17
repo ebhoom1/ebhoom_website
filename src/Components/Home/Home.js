@@ -76,7 +76,7 @@ export default class Home extends Component {
               <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                 <h2 className="products-head2 mb-3">
                   {" "}
-                  EBHOOM Control &amp; <br /> Monitor System
+                  EBHOOM Water Treatment; <br /> Management System
                 </h2>
                 <Link to="/products#wms">
                   {" "}
