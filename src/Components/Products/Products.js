@@ -60,7 +60,7 @@ export default class Products extends Component {
               </div>
 
               <div className="col-12 col-lg-6 text-center">
-                <img className="wms-img w-75 " src="public/assets/images/WhatsApp Image 2023-05-22 at 12.29.39 PM.jpeg" />
+                <img className="wms-img w-75 " src="public/assets/images/mobile app.png" />
               </div>
             </div>
           </div>
