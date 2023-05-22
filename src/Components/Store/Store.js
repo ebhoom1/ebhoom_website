@@ -21,13 +21,13 @@ export default class Store extends Component {
 
                 <div className='col-12 col-lg-3 mb-3'>
                   <div className='store-card shadow text-center'>
-                  <span className="badge bg-warning mb-3">Coming Soon</span>
+                  <span className="badge bg-warning mb-3">Available</span>
                     <img className='w-100 mb-3' src='assets/images/wms.png' alt="Ebhoom" />
                     
                     <h5 className='mb-2 text-blue ebhoom-txt'>EBHOOM WMS</h5>
                     <p className='mb-3 store-desc'> A complete solution for backend monitoring and control of your
                   treatment plant</p>
-                    <button className='book-button' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">Pre-Book Now</button>
+                    <button className='book-button' type='button' data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</button>
 
                   </div>
                 </div>
