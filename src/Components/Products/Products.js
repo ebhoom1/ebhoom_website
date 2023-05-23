@@ -60,7 +60,7 @@ export default class Products extends Component {
               </div>
 
               <div className="col-12 col-lg-6 text-center">
-                <img className="wms-img w-75 " src="public/assets/images/mobile app.png" />
+                <img className="wms-img w-75 " src="public/assets/images/products/img1.png" />
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ export default class Products extends Component {
                 <h4 className="services-head">
                   Checks water quality:{" "}
                   <span className="fw-bold text-blue">
-                    pH, TDS, Turbidity, BOD, COD
+                    pH, Temperature, TDS, Turbidity, BOD, COD
                   </span>
                 </h4>
               </div>
@@ -258,7 +258,7 @@ export default class Products extends Component {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        height: '100vh',
+        height: '40vh',
       }}
     >
       <div className="col-12 col-lg-6  text-center">
