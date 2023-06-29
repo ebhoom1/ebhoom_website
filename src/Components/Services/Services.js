@@ -25,10 +25,10 @@ export default class Services extends Component {
                   treatment plant
                 </p>
                 <h1 className="wms-head mb-3">
-                  Interactive Treatment Control System
+                  Interactive Water Control System
                 </h1>
                 <p className="mb-0 wms-desc">Start your 14 days free trial</p>
-                <p className="mt-0 wms-desc">Get started with MODEL L today</p>
+                <p className="mt-0 wms-desc">Get started with trial MODEL today</p>
                 <div className="d-flex align-items-center mb-2">
                   <input
                     className="input-field"
@@ -112,13 +112,11 @@ export default class Services extends Component {
               />
 
               <h4 className="services-head3">
-                Sewage and Effluent Treatment plant
+                
               </h4>
               <p className="services-desc">
                 {" "}
-                Our water disposal technologies will treat the waste/effluent
-                water making it suitable for disposal and prevent the
-                contamination of ground, ground water and other water resources.
+                
               </p>
             </div>
             <div className="col-12 col-lg-4 mb-3">
@@ -146,14 +144,12 @@ export default class Services extends Component {
                 alt="ebhoom"
               />
 
-              <h4 className="services-head3">Anaerobic Digestor</h4>
+              <h4 className="services-head3"></h4>
               <p className="services-desc">
-                Biogas Production, Food &amp; animal waste disposal, Fertilizer
-                manure
+              
               </p>
               <p className="services-desc">
-                Erected on households, Residential complexes, farms and other
-                commercial establishments that generate waste
+                
               </p>
             </div>
             <div className="col-12 col-lg-4 mb-3">
@@ -163,12 +159,9 @@ export default class Services extends Component {
                 alt="ebhoom"
               />
 
-              <h4 className="services-head3">Incinerator</h4>
+              <h4 className="services-head3"></h4>
               <p className="services-desc">
-                Reduce 95% of the waste by using controlled air combustion into
-                pure ash within minutes. compactness ensure minimal space
-                requirements. Used in households, industries, warehouses,
-                hospitals and other establishments.
+                
               </p>
             </div>
             <div className="col-12 col-lg-4 mb-3">
@@ -179,15 +172,10 @@ export default class Services extends Component {
               />
 
               <h4 className="services-head3">
-                Waste collection &amp; recycling
+                
               </h4>
               <p className="services-desc">
-                Waste Management is on a mission to maximize resource value.
-                while minimizing - and even eliminating - environmental impact
-                so that both our economy and our environment can thrive.
-                Industrial, residential and commercial establishments can make
-                their day to day operations better, when they have an efficient
-                waste management system.
+                
               </p>
             </div>
             <div className="col-12 col-lg-4 mb-3">
@@ -197,16 +185,12 @@ export default class Services extends Component {
                 alt="ebhoom"
               />
 
-              <h4 className="services-head3">Ecology restoration</h4>
+              <h4 className="services-head3"></h4>
               <p className="services-desc">
-                Ecology restoration refers to the
-                rehabilitation,reclamation,recreation and recovery of degraded
-                lands.
+                
               </p>
               <p className="services-desc">
-                We implement this on different levels ( Urban gardening -
-                Reforestation - Land scaping - recreation of wetlands - acid
-                lake nutralization )
+                
               </p>
             </div>
           </div>
