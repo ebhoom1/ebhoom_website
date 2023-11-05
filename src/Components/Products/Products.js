@@ -21,11 +21,11 @@ export default class Products extends Component {
 
               <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                 <h3 className="wms-head2">
-                  Deliver Innovations with stong tech competencies
+                  Online Continuous Emission Monitoring System
                 </h3>
                 <p className="wms-desc">
-                  We leverage our strong competencies to deliver more innovative
-                  products for effortless environmental service solutions
+                  We help STPs to comply with government regulations
+                
                 </p>
               </div>
             </div>
