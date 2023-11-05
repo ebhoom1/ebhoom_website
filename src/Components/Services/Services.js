@@ -133,10 +133,10 @@ export default class Services extends Component {
                 EBHOOM, is a real-time Emission quality monitoring system that can help you comply with the CPCB regulations. The data from EBHOOM can be submitted to the KSPCB in real time, which will help you to meet the requirements of the Board.
               </p>
               <p className="services-desc">
-                Easy to use and maintain
-                Compliant with CPCB and KSPCB regulations
-                Helps to improve water quality management
-                Reduces the risk of pollution
+                Easy to use and maintain. 
+                Compliant with CPCB and KSPCB regulations. 
+                Helps to improve water quality management. 
+                Reduces the risk of pollution.
 
               </p>
             </div>
