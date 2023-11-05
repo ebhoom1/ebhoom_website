@@ -21,12 +21,12 @@ export default class Services extends Component {
 
               <div className="col-12 col-lg-6  mb-3">
                 <p className="wms-desc">
-                  A complete solution for backend monitoring and control of your
-                  treatment plant
+                  A complete solution for backend emission quality monitoring!
                 </p>
                 <h1 className="wms-head mb-3">
-                  Interactive Water Control System
+                  Online Continuous Emission Monitoring Application
                 </h1>
+                <p className="mb-0 wms-desc">Connect EBHOOM Application with any Global OCEMS</p>
                 <p className="mb-0 wms-desc">Start your 14 days free trial</p>
                 <p className="mt-0 wms-desc">Get started with trial MODEL today</p>
                 <div className="d-flex align-items-center mb-2">
@@ -39,7 +39,7 @@ export default class Services extends Component {
                 </div>
                 <p className="wms-desc">
                   Already using our service?{" "}
-                  <a href="http://www.wms.ebhoom.com" target="__blank">
+                  <a href="http://www.admin.ebhoom.com" target="__blank">
                     SignIn
                   </a>
                 </p>
@@ -82,7 +82,7 @@ export default class Services extends Component {
               <div className="col-12 col-lg-6  text-center">
                 <div class="ratio ratio-16x9">
                   <iframe
-                    src="https://www.youtube.com/embed/Nzti7jsNuGQ?rel=0"
+                    src="https://youtu.be/shTSzR2weIQ?si=0D_CBden5UcLHoJk"
                     title="YouTube video"
                     allowfullscreen
                   ></iframe>
@@ -127,14 +127,17 @@ export default class Services extends Component {
               />
 
               <h4 className="services-head3">
-                Operations and maintenance for STP and ETP
+                Connect any emission monitoring systems of Air, Water & Noise to EBHOOM application
               </h4>
               <p className="services-desc">
-                Modular, Pre-fabricated/Skid mounted/totally underground design
-                for apartments, Hotels and hospitals
+                EBHOOM, is a real-time Emission quality monitoring system that can help you comply with the CPCB regulations. The data from EBHOOM can be submitted to the KSPCB in real time, which will help you to meet the requirements of the Board.
               </p>
               <p className="services-desc">
-                Operation And Maintenance Service For STP/ETP/RO
+                Easy to use and maintain
+                Compliant with CPCB and KSPCB regulations
+                Helps to improve water quality management
+                Reduces the risk of pollution
+
               </p>
             </div>
             <div className="col-12 col-lg-4 mb-3">
