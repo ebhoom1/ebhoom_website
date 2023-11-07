@@ -60,7 +60,7 @@ export default class Products extends Component {
               </div>
 
               <div className="col-12 col-lg-6 text-center">
-                <img className="wms-img w-75 " src="public/assets/images/ebhoom-flyer.jpg" />
+                <img className="wms-img w-75 " src="assets/images/ebhoom-flyer.jpg" />
               </div>
             </div>
           </div>
