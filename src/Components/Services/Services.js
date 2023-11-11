@@ -21,12 +21,12 @@ export default class Services extends Component {
 
               <div className="col-12 col-lg-6  mb-3">
                 <p className="wms-desc">
-                  A complete solution for backend emission quality monitoring!
+                  A complete solution for backend emission | effluent | noise  monitoring!
                 </p>
                 <h1 className="wms-head mb-3">
-                  Online Continuous Emission Monitoring Application
+                  Online Continuous Pollution Monitoring Application
                 </h1>
-                <p className="mb-0 wms-desc">Connect EBHOOM Application with any Global OCEMS</p>
+                <p className="mb-0 wms-desc">Connect EBHOOM Application with any Global device</p>
                 <p className="mb-0 wms-desc">Start your 14 days free trial</p>
                 <p className="mt-0 wms-desc">Get started with trial MODEL today</p>
                 <div className="d-flex align-items-center mb-2">
@@ -130,11 +130,11 @@ export default class Services extends Component {
                 Connect any emission monitoring systems of Air, Water & Noise to EBHOOM application
               </h4>
               <p className="services-desc">
-                EBHOOM, is a real-time Emission quality monitoring system that can help you comply with the CPCB regulations. The data from EBHOOM can be submitted to the KSPCB in real time, which will help you to meet the requirements of the Board.
+                EBHOOM, is a real-time Pollution monitoring system that can help you comply with the CPCB regulations. The data from EBHOOM can be submitted to the KSPCB in real time, which will help you to meet the requirements of the Board.
               </p>
               <p className="services-desc">
                 Easy to use and maintain. 
-                Compliant with CPCB and KSPCB regulations. 
+                Compliant with CPCB and SPCB regulations. 
                 Helps to improve water quality management. 
                 Reduces the risk of pollution.
 
