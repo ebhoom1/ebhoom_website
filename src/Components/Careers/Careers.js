@@ -28,7 +28,7 @@ export default class Careers extends Component {
 
 As a MERN STACK developer, you will be responsible for developing and maintaining our water treatment management software. You will work in our software department and handle all the aspects of front-end and back-end development. You will also collaborate with the hardware engineer and the founders to ensure that our software meets the needs of our clients and users.
 
-Job Duties and Responsibilities
+Job Duties and Responsibilities 
 
 Design, develop, test, deploy, and maintain our web-based water treatment management software using react.js, node.js, MySQL, and python.
 Implement user interface components and features using HTML, CSS, JavaScript, and react.js.
