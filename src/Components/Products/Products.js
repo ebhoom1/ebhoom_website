@@ -307,8 +307,8 @@ export default class Products extends Component {
                 <h3 className="blue-box-head">DATA LOGGER</h3>
                 <ul className="blue-box-list">
                   <li>TRANSFER PLC/ Flow meter data using serial communication</li>
-                  <li></li>
-                  <li></li>
+                
+              
               
                 </ul>
               </div>
@@ -319,7 +319,7 @@ export default class Products extends Component {
                 <h3 className="blue-box-head"> Software subscription</h3>
                 <ul className="blue-box-list">
                   <li>Connect OCEMS</li>
-                  <li>COnnect PLC/flowmeter</li>
+                  <li>Connect PLC/flowmeter</li>
                   <li>₹749 including gst.</li>
             
                 </ul>
@@ -452,7 +452,7 @@ export default class Products extends Component {
                   <h4 className="services-head">Network operations</h4>
                   <p className="services-desc">
                     The EBHOOM CMS portal, a network operation centre to
-                    exercise global waste water quality monitoring, control and
+                    exercise global pollution monitoring, control and
                     management
                   </p>
                 </div>
