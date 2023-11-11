@@ -291,48 +291,46 @@ export default class Products extends Component {
 
             <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
               <div className="blue-box">
-                <h3 className="blue-box-head">MODEL P</h3>
+                <h3 className="blue-box-head">OCEMS MARS</h3>
                 <ul className="blue-box-list">
-                  <li>BOD, COD parameters</li>
-                  <li>Upto 16 control pump control</li>
-                  <li>Upto 10 flow rates</li>
-                  <li>Upto 10 tank levels</li>
-                  <li>Operator tracker and attendance register</li>
+                  <li>BOD, COD, TSS, Turbidity,pH parameters </li>
+                  <li>TUV Certified UV-VIS dual beam sensor </li>
+                  <li> 1 year on site warranty</li>
+                  <li> 1 year free software subscription</li>
+              
                 </ul>
               </div>
             </div>
 
             <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
               <div className="blue-box">
-                <h3 className="blue-box-head">MODEL H</h3>
+                <h3 className="blue-box-head">DATA LOGGER</h3>
                 <ul className="blue-box-list">
-                  <li>Upto 16 control pump control</li>
-                  <li>Upto 8 flow rates</li>
-                  <li>Upto 8 tank levels</li>
-                  <li>Operator tracker and attendance register</li>
+                  <li>TRANSFER PLC/ Flow meter data using serial communication</li>
+                  <li></li>
+                  <li></li>
+              
                 </ul>
               </div>
             </div>
 
             <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
               <div className="blue-box">
-                <h3 className="blue-box-head">MODEL M</h3>
+                <h3 className="blue-box-head"> Software subscription</h3>
                 <ul className="blue-box-list">
-                  <li>Upto 8 control pump control</li>
-                  <li>Upto 4 flow rates</li>
-                  <li>Upto 4 tank levels</li>
-                  <li>Operator tracker and attendance register (Optional)</li>
+                  <li>Connect OCEMS</li>
+                  <li>COnnect PLC/flowmeter</li>
+                  <li>₹749 including gst.</li>
+            
                 </ul>
               </div>
             </div>
             <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
               <div className="blue-box">
-                <h3 className="blue-box-head">MODEL L</h3>
+                <h3 className="blue-box-head"> </h3>
                 <ul className="blue-box-list">
-                  <li>Upto 2 control pump control</li>
-                  <li>Upto 2 flow rates</li>
-                  <li>Upto 2 tank levels</li>
-                  <li>Operator tracker and attendance register (Optional)</li>
+                  
+                
                 </ul>
               </div>
             </div>
