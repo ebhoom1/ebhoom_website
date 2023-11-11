@@ -76,7 +76,7 @@ export default class Home extends Component {
               <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                 <h2 className="products-head2 mb-3">
                   {" "}
-                  Online Continuous Emission <br /> Monitorng System
+                  Online Continuous Effluent <br /> Monitorng System
                 </h2>
                 <Link to="/products#wms">
                   {" "}
@@ -194,10 +194,8 @@ export default class Home extends Component {
               </div>
               <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                 <p className="about-home">
-                  Ebhoom has the vision and the technology to transform our
-                  planet into a beautiful and clean one. Solid Waste Management
-                  and water pollution has always been a universal issue and
-                  Ebhoom is here to bring you Solutions
+                  EBHOOM has the vision and the technology to transform our
+                  planet into a beautiful and clean one. EBHOOM is a Turnkey for all pollution related solutions establishment, the company has an unbeatable professional expertise in water, stack & air quality measurement technologies and Software’ s for CPCB-SPCB Servers.
                 </p>
                 <Link to="/about">
                   {" "}
@@ -234,9 +232,9 @@ export default class Home extends Component {
                   <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
                 </svg>
                 <h2 className="products-head mb-3">
-                  The Only <span className="text-orange">StartupIndia</span>{" "}
-                  Recognised <span className="text-green">Environmental</span>{" "}
-                  solutions Company in Kerala
+                  Environmental Software Solutions, <span className="text-orange">Embedded Systems,</span>{" "}
+                  Analyzer Maintenance, <span className="text-green">Data uploading services to CPCB/SPCB server.</span>{" "}
+                  
                 </h2>
               </div>
 
