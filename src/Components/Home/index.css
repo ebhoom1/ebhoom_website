@@ -44,17 +44,20 @@
 }
 
 .learn-more-button {
-  padding: 5px 30px;
+  padding: 5px 50px;
   color: #162328;
   border: 1px solid #162328;
   border-radius: 50px;
   background-color: transparent;
   font-size: 14px;
   font-family: "Euclid Circular B";
+  margin-bottom: 25px;
 }
 .learn-more-button:hover {
   background-color: #162328;
   color: #ffffff;
+  box-shadow: 0 0 2em #236a805b;
+
 }
 
 .about-home {
@@ -73,3 +76,25 @@
   text-align: center;
   font-style: italic;
 }
+
+.description{
+  width: 500px;
+  border-radius: 24px;
+}
+
+/* Media query for mobile devices (up to 767px) */
+@media (max-width: 767px) {
+  .description {
+    width: 100%; /* Make the image fill the width of the container */
+    border-radius: 0; /* Remove border-radius */
+  }
+}
+
+/* Media query for tablets (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .description {
+    width: 70%; /* Adjust width as needed for tablets */
+    border-radius: 12px; /* Adjust border-radius as needed */
+  }
+}
+
