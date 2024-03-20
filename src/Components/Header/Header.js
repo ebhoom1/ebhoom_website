@@ -40,6 +40,9 @@ export default class Header extends Component {
               <a class="nav-link" href="https://www.blogs.ebhoom.com">
                 Blog
               </a>
+                <Link class="nav-link" to="/tdps">
+                TPDS
+                </Link>
               <Link class="nav-link" to="/careers">
                 Careers
               </Link>
