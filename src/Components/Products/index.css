@@ -21,3 +21,107 @@
   font-size: 30px;
   font-weight: 600;
 }
+.wms-img{
+  width: 100vh;
+}
+/* Media query for tablet view */
+@media only screen and (max-width: 992px) {
+  .wms-img {
+    width: 80vh; /* Adjust width for tablet view */
+  }
+}
+
+/* Media query for mobile view */
+@media only screen and (max-width: 600px) {
+  .wms-img {
+    width: 50vh; /* Adjust width for mobile view */
+  }
+}
+.table-img{
+  width:75vh;
+  border-radius: 10px;
+}
+@media screen and (max-width:600px) {
+  .table-img{
+    width: 50vh;
+    margin-top: 0; /* Reset margin-top */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block; /* Ensure the image is displayed as a block element */
+    border-radius: 10px;
+  }
+
+}
+.table-img2{
+  width:75vh;
+  border-radius: 10px;
+}
+@media screen and (max-width:600px) {
+  .table-img2{
+    width: 50vh;
+    margin-top: 0; /* Reset margin-top */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block; /* Ensure the image is displayed as a block element */
+    border-radius: 10px;
+  }
+
+}
+.learn-more-button-product {
+  padding: 5px 50px;
+  color: #0a0a0a;
+  border: 1px solid #162328;
+  border-radius: 50px;
+  background-color: transparent;
+  font-size: 14px;
+  font-family: "Euclid Circular B";
+  margin-bottom: 25px;
+}
+.learn-more-button-product:hover {
+  background-color: #162328;
+  color: #ffffff;
+  box-shadow: 0 0 2em #236a805b;
+
+}
+
+
+/* index.css */
+
+/* Style for the table container */
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling on small screens */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Style for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid rgb(37, 39, 39);
+}
+
+/* Style for table headers */
+.table th {
+  background-color: #236a80; /* Blue background color for table headers */
+  color: #fff; /* Text color for table headers */
+  padding: 12px; /* Adjust padding as needed */
+  text-align: left;
+  border: 2px solid black;
+}
+
+/* Style for table cells */
+.table td {
+  padding: 8px; /* Adjust padding as needed */
+  border-bottom: 1px solid #ddd; /* Bottom border for table cells */
+  border: 2px solid;
+}
+
+/* Style for alternate rows (optional) */
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Background color for alternate rows */
+}
