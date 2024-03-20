@@ -1,0 +1,319 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    min-height: 80vh;
+    background: url("https://images.pexels.com/photos/6754758/pexels-photo-6754758.jpeg?auto=compress&cs=tinysrgb&w=600") top center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #hero .container {
+    position: relative;
+    padding-top: 74px;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    margin: 0;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #hero h1 span {
+    color: #ea2a4f;
+  }
+  
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+  #hero .icon-box {
+    padding: 30px 20px;
+    transition: ease-in-out 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+  }
+  
+  #hero .icon-box i {
+    font-size: 32px;
+    line-height: 1;
+    color: #ea2a4f;
+  }
+  
+  #hero .icon-box h3 {
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  #hero .icon-box h3 a {
+    color: #fff;
+    transition: ease-in-out 0.3s;
+  }
+  
+  #hero .icon-box h3 a:hover {
+    color: #ea2a4f;
+  }
+  
+  #hero .icon-box:hover {
+    border-color: #ea2a4f;
+  }
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 18px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  @media (max-width: 480px) {
+    #hero h1 {
+      font-size: 18px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .learn-more-button {
+    padding: 5px 50px;
+    color: #ffffff;
+    border: 1px solid #fafbfb;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 14px;
+    font-family: "Euclid Circular B";
+    margin-top: 25px;
+  }
+  .learn-more-button:hover {
+    background-color: #162328;
+    color: #ffffff;
+    box-shadow: 0 0 2em #236a805b;
+  
+  }
+  .green-card {
+    background: linear-gradient(to bottom, #83d475, #abe098);
+    padding: 30px 0px;
+  }
+  
+  .about-caption {
+    font-family: "Euclid Circular B";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  /* products  */
+/*--------------------------------------------------------------
+# products
+--------------------------------------------------------------*/
+.products {
+  padding-bottom: 10px;
+}
+
+.products .icon-box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.products .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: #236a80;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.products .icon i {
+  font-size: 36px;
+  line-height: 0;
+}
+
+.products .icon-box:hover .icon {
+  box-shadow: 0px 0 30px #236a808a;
+}
+
+.products .title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.products .title a {
+  color: #444;
+  transition: 0.3s;
+}
+
+.products .title a:hover {
+  color: #236a80;
+}
+
+.products .title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #236a80;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.products .description {
+  line-height: 24px;
+  font-size: 14px;
+  list-style-type: none;
+}
+/* Style the line under each list item */
+.products .description li {
+  padding-bottom: 5px; /* Adjust spacing as needed */
+  margin-bottom: 5px; /* Adjust spacing as needed */
+  
+}
+.icon-bullet{
+   color: #84bc11;
+   margin-right: 5px;
+}
+
+
+/* h1 {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+} */
+  /* End Products */
+
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  margin-top: 45px;
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #5b5858;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #236a80;
+  margin: 4px 10px;
+}
+.section-title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #236a80;
+  margin: 4px 10px;
+}
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #151515;
+}
+/* Media query for tablets */
+@media only screen and (max-width: 992px) {
+  section {
+    padding: 30px 0; /* Adjust padding for tablets */
+  }
+
+  .section-title h2 {
+    margin-top: 70px;
+    font-size: 20px; /* Decrease font size for tablets */
+  }
+
+  .section-title p {
+    font-size: 28px; /* Decrease font size for tablets */
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 20px 0; 
+  }
+
+  .section-title h2 {
+    font-size: 18px; 
+  }
+
+  .section-title p {
+    font-size: 24px; 
+  }
+
+  .section-title h2::after {
+    width: 80px; 
+  }
+}
+
+.services-head{
+  color: #236a80;
+}
+
+.cover-img{
+  width: 93vh;
+}
