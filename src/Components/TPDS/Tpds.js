@@ -70,7 +70,7 @@ const Tdps = () => {
                 </h3>
                 <div className="row">
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
-                        <div className="icon"><img src="/assets/images/icon/tdps/data-science.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/data-science.png" alt="" /></div>
                         <h4 className="title"><a href="">Data Acquisition</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' /> Supports any digital analyser make and models over RS232/RS485/Modbus protocols</li>
@@ -80,7 +80,7 @@ const Tdps = () => {
 
                     </div>
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div className="icon"><img src="/assets/images/icon/tdps/dashboard.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/dashboard.png" alt="" /></div>
                         <h4 className="title"><a href="">Data Management</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />State-of-the-art software with cloud and on premise deployment</li>
@@ -88,7 +88,7 @@ const Tdps = () => {
                           <li><BiCheckCircle className='icon-bullet' />Integrated workflow for seamless communication between Industry and Regulator.</li>
                         </ul>                    </div>
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <div className="icon"><img src="/assets/images/icon/tdps/mobile-development.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/mobile-development.png" alt="" /></div>
                         <h4 className="title"><a href="">Mobile App</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />Provides real time data from industry emission on mobile using secured login.</li>
@@ -96,7 +96,7 @@ const Tdps = () => {
                           <li><BiCheckCircle className='icon-bullet' />Real Time charts, Average value with prescribed limits.</li>
                         </ul>                    </div>
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div className="icon"><img src="/assets/images/icon/tdps/report.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/report.png" alt="" /></div>
                         <h4 className="title"><a href="">Reporting</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />Pre-configured reports as per Regulatory requirements.</li>
@@ -106,7 +106,7 @@ const Tdps = () => {
                          </div>
                          <div className="d-flex justify-content-center">
                          <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div className="icon"><img src="/assets/images/icon/tdps/data-analysis.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/data-analysis.png" alt="" /></div>
                         <h4 className="title"><a href="">Data Analysis</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />Parameter limits and rules pre-configured as directed by Central Pollution Control Board.</li>
