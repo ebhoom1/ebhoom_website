@@ -25,13 +25,13 @@ const Home=()=>{
               <div class="carousel-inner"data-aos="fade-out">
                 <div class="carousel-item active" data-bs-interval="1000">
                   <h1 className="banner-head">
-                    <span className="text-green">Purity</span> is Rarity,{" "}
+                    <span className="text-green">India's</span> own Pollution,{" "}
                     <br />
-                    We provide it
+                    Monitoring System.
                   </h1>
                   <h3></h3>
                 </div>
-                <div class="carousel-item">
+                {/* <div class="carousel-item">
                   <h1 className="banner-head">
                     We offer <br />
                     <span className="text-green">Environmental</span>{" "}
@@ -46,7 +46,7 @@ const Home=()=>{
                     We provide it
                   </h1>
                   <h3></h3>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Home=()=>{
               </p>
               <Link to="/contact"target="_blank">
                 {" "}
-                <button className="learn-more-button" type="button">
+                <button className="learn-more-button-home" type="button">
                   Contact us
                 </button>
               </Link>
@@ -208,7 +208,7 @@ const Home=()=>{
               
                 <Link to="/contact"target="_blank">
                   {" "}
-                  <button className="learn-more-button" type="button">
+                  <button className="learn-more-button-home"  type="button">
                   Get your <span className="text-green">OCEMS</span> now
                   </button>
                 </Link>
