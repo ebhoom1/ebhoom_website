@@ -23,7 +23,12 @@ export default class Contact extends Component {
                 <div className="silver-box">
                   <h3 className="silver-box-head">Address</h3>
                   <p>
-                  EBHOOM SOLUTIONS LLP, Fathima Complex, Karukappilly Jn, Deshabhimani Road, Ernakulam 682026
+                  EBHOOM SOLUTIONS LLP
+                   Near Bharata Mata College, Thrikkakara p.o, Ernakulam -682021
+                  </p>
+                  <p>
+                  EBHOOM SOLUTIONS LLP
+                  CUSAT, RISE TBI, University Road, South Kalamassery, Kalamassery, Kochi, Kerala-682022
                   </p>
                 </div>
               </div>
@@ -32,8 +37,13 @@ export default class Contact extends Component {
                 <div className="silver-box">
                   <h3 className="silver-box-head">Phone</h3>
 
-                  <a className="link" href="tel:+9104954268888">
-                    <p className="silver-box-desc">0495 426 8888</p>
+                  <a className="link" href="tel:+916282386462">
+                    <p className="silver-box-desc">+91  62823 86462</p>
+                    
+                  </a>
+                  <a className="link" href="tel:+918086704092">
+                    <p className="silver-box-desc">+91 80867 04092</p>
+                    
                   </a>
                 </div>
               </div>
