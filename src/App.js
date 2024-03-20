@@ -16,7 +16,7 @@ import BlogContent6 from "./Components/Blog/BlogContent6";
 import Careers from "./Components/Careers/Careers";
 import Store from "./Components/Store/Store";
 import ScrollToTop from "./Components/Utils/ScrollToTop";
-
+import Tpds from "./Components/TPDS/Tpds";
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
     <Route exact path="/contact" element={<Contact />} />
     <Route exact path="/careers" element={<Careers />} />
     <Route exact path="/blog" element={<BlogList />} />
+    <Route exact path="/tpds" element={<Tpds />} />
     <Route exact path="/blog/top-tips-for-a-beautiful-food-waste-bin" element={<BlogContent />} />
     <Route exact path="/blog/why-kerala-floods-were-the-worst-in-a-century" element={<BlogContent2 />} />
     <Route exact path="/blog/rainwater-harvesting-system-in-tn-mans-home" element={<BlogContent3 />} />
