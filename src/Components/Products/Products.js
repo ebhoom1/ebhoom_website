@@ -1,8 +1,114 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from "react";
 import "./index.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+const  Products=()=>{
+  useEffect(() => {
+    AOS.init({ duration: 2000, once: true });
+  }, []);
+  const multiparameter=[
+    {
+      sensor:"Measuring Principle",
+      paramenter:"UV VIS Dual Beam Technology - Attenuation, transmission"
+    },
+    {
+      sensor:"Measuring Range ",
+      paramenter:"see list of parameters"
+    },
+    {
+      sensor:"optical path ",
+      paramenter:"0.3 mm, 1 mm, 2 mm, 5mm, 10 mm, 50mm"
+    },
+    {
+      sensor:"Parameters",
+      paramenter:"SAC CODeq, BODeq, TOCeq, UVT, Turb 530, TSS"
+    },
+    {
+      sensor:"Accuracy",
+      paramenter:".2%"
+    },
+    {
+      sensor:"Reaction time T100 ",
+      paramenter:"4s"
+    },
+    {
+      sensor:"Housing material ",
+      paramenter:"Stainless steel (1.4571/14404) or titanium (3.7035)"
+    },
+    {
+      sensor:"Cable Length",
+      paramenter:"500 cm"
+    },
+    {
+      sensor:"Calibration interval ",
+      paramenter:"24 months"
+    },
+    {
+      sensor:"Power Supply ",
+      paramenter:"230VAC Nominal"
+    },
+    {
+      sensor:"Consumption",
+      paramenter:"60W Max"
+    },
+    {
+      sensor:"Warranty",
+      paramenter:"1 year"
+    },
+  ]
+  const ph=[
+    {
+      sensor:"Measuring Principle ",
+      ph:"pH : Electrode & Potentiometric",
+    },
+    {
+      sensor:"Measuring Range",
+      ph:"pH: 0 –14 pH",
+    },
+    {
+      sensor:"Accuracy",
+      ph:"± 0.1pH (25 ℃)",
+    },
+    {
+      sensor:"Response Time",
+      ph:"≤60 Seconds",
+    },
+    {
+      sensor:"Cable length",
+      ph:"500 cm",
+    },
+    {
+      sensor:"Power Supply",
+      ph:"230VAC Nominal",
+    },
+    {
+      sensor:"Consumption",
+      ph:"60W Max",
+    },
+    {
+      sensor:"Warranty",
+      ph:"1 year",
+    },
+  ]
+  const analyserCabinet=[
+    {
+      sensor:"Communication ",
+      abs:"RS485 Modbus /Wifi/GPRS/ Ethernet",
+    },
+    {
+      sensor:"Power supply",
+      abs:"12 V DC",
+    },
+    {
+      sensor:"Warranty ",
+      abs:"2 years",
+    },
+    {
+      sensor:"Consumption",
+      abs:"60W Max",
+    },
 
-export default class Products extends Component {
-  render() {
+  ]
     return (
       <>
         {/* divider */}
@@ -10,62 +116,49 @@ export default class Products extends Component {
         <div className="p-1"></div>
         {/* divider */}
 
-        {/* services  */}
-
-        <div>
+          {/* Our Producrts */}
           <div className="container">
-            <div className="row">
-              <div className="col-12 col-lg-6 mb-3">
-                <h1 className="services-head1 mb-3">Our Products</h1>
-              </div>
+          <div className="row">
+            <div className="col-12 "data-aos="zoom-in">
+              <h3 className="products-head mb-5">Our Products</h3>
+            </div>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+            <h4 className="services-head3  "data-aos="fade-down">
+            Online Continuous effluent Monitoring System
+              </h4>
+              <h4 className="services-head3  "data-aos="fade-down">
+              Complete sollution for backend montioring of <strong className="text-green">Water</strong>.
+              </h4>
+              <p className="services-desc"data-aos="fade-up">
+              A complete solution for backend monitoring and control of your
+                  treatment plant              </p>
+              <p className="services-desc"data-aos="fade-down">
+              Already using our product?{" "}
+                  <button className="learn-more-button-product" type="button">
+                  <a href="https://admin.ebhoom.com" target="__blank">
+                    SignIn
+                  </a>
+                  </button>
 
-              <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                <h3 className="wms-head2">
-                  Online Continuous Emission Monitoring System
-                </h3>
-                <p className="wms-desc">
-                  We help STPs to comply with government regulations
-                
-                </p>
-              </div>
+              </p>
             </div>
           </div>
-        </div>
-        {/* services ends */}
+           </div>
+          <div className="container">
+            <div className="row justify-content-center">
+             <div className="col-lg-6 col-md-8 col-sm-10"data-aos="zoom-in">
+              <img src="assets/images/products/Products-cover.jpg" className="img-fluid " alt="Centered Image" />
+              </div>
+            </div>
+           </div>
+          {/* End Our Products */}
+       
 
         {/* divider */}
 
         <div className="p-5"></div>
         {/* divider */}
-        {/* products  */}
-
-        <div id="wms">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 col-lg-6  mb-3">
-                <h1 className="wms-head mb-3 text-blue">
-                  EBHOOM Water Treatment Management System
-                </h1>
-                <p className="wms-desc">
-                  A complete solution for backend monitoring and control of your
-                  treatment plant
-                </p>
-
-                <p className="wms-desc">
-                  Already using our product?{" "}
-                  <a href="https://admin.ebhoom.com" target="__blank">
-                    SignIn
-                  </a>
-                </p>
-              </div>
-
-              <div className="col-12 col-lg-6 text-center">
-                <img className="wms-img w-75 " src="assets/images/ebhoom-flyer.jpg" />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* products */}
+       
 
         {/* divider */}
         <div className="p-5"></div>
@@ -76,11 +169,11 @@ export default class Products extends Component {
 
         <div className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-12"data-aos="zoom-out">
               <h3 className="products-head mb-5">Features</h3>
             </div>
 
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            {/* <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
               <img
                 className="w-25"
                 src="assets/images/icon/strainers.png"
@@ -91,8 +184,8 @@ export default class Products extends Component {
                   Regular reminder for filter Backwash &amp; Rinse
                 </h4>
               </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            </div> */}
+            {/* <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
               <img
                 className="w-25"
                 src="assets/images/icon/pump.png"
@@ -103,8 +196,8 @@ export default class Products extends Component {
                   Controls water supply through App
                 </h4>
               </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            </div> */}
+            {/* <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
               <img
                 className="w-25"
                 src="assets/images/icon/water-level.png"
@@ -113,8 +206,8 @@ export default class Products extends Component {
               <div className="ps-2">
                 <h4 className="services-head">Monitors tank levels</h4>
               </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            </div> */}
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/wifi3.png"
@@ -125,7 +218,7 @@ export default class Products extends Component {
               </div>
             </div>
 
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/quality.png"
@@ -140,7 +233,7 @@ export default class Products extends Component {
                 </h4>
               </div>
             </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/booking.png"
@@ -150,7 +243,7 @@ export default class Products extends Component {
                 <h4 className="services-head">Easy operation</h4>
               </div>
             </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            {/* <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
               <img
                 className="w-25"
                 src="assets/images/icon/water-waves.png"
@@ -159,8 +252,8 @@ export default class Products extends Component {
               <div className="ps-2">
                 <h4 className="services-head">Displays flowrates</h4>
               </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            </div> */}
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/24-hours.png"
@@ -170,7 +263,7 @@ export default class Products extends Component {
                 <h4 className="services-head">24 hours Monitorning</h4>
               </div>
             </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/high-signal.png"
@@ -180,7 +273,7 @@ export default class Products extends Component {
                 <h4 className="services-head">In-build GSM internet</h4>
               </div>
             </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            {/* <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
               <img
                 className="w-25"
                 src="assets/images/icon/auto.png"
@@ -189,8 +282,8 @@ export default class Products extends Component {
               <div className="ps-2">
                 <h4 className="services-head">Automatic &amp; Manual mode</h4>
               </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            </div> */}
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/database.png"
@@ -200,7 +293,7 @@ export default class Products extends Component {
                 <h4 className="services-head">Datas are saved</h4>
               </div>
             </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/worker.png"
@@ -212,7 +305,7 @@ export default class Products extends Component {
                 </h4>
               </div>
             </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/dashboard.png"
@@ -225,7 +318,7 @@ export default class Products extends Component {
                 </h4>
               </div>
             </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/cross-platform.png"
@@ -281,62 +374,49 @@ export default class Products extends Component {
 
         {/* product features  */}
 
+        
         <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="products-head mb-5">
-                Choose a model that suites you
-              </h3>
-            </div>
+        <div className="row">
+          <div className="col-12"data-aos="fade-out">
+            <h3 className="products-head mb-5">
+              Choose a model that suits you
+            </h3>
+          </div>
 
-            <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
-              <div className="blue-box">
-                <h3 className="blue-box-head">OCEMS MARS</h3>
-                <ul className="blue-box-list">
-                  <li>BOD, COD, TSS, Turbidity,pH parameters </li>
-                  <li>TUV Certified UV-VIS dual beam sensor </li>
-                  <li> 1 year on site warranty</li>
-                  <li> 1 year free software subscription</li>
-              
-                </ul>
-              </div>
+          <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3"data-aos="fade-out">
+            <div className="blue-box">
+              <h3 className="blue-box-head">OCEMS MARS</h3>
+              <ul className="blue-box-list">
+                <li>BOD, COD, TSS, Turbidity, pH parameters</li>
+                <li>TUV Certified UV-VIS dual beam sensor</li>
+                <li>1 year on-site warranty</li>
+                <li>1 year free software subscription</li>
+              </ul>
             </div>
+          </div>
 
-            <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
-              <div className="blue-box">
-                <h3 className="blue-box-head">DATA LOGGER</h3>
-                <ul className="blue-box-list">
-                  <li>TRANSFER PLC/ Flow meter data using serial communication</li>
-                
-              
-              
-                </ul>
-              </div>
+          <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3"data-aos="fade-out">
+            <div className="blue-box">
+              <h3 className="blue-box-head">DATA LOGGER</h3>
+              <ul className="blue-box-list">
+                <li>TRANSFER PLC/Flow meter data using serial communication</li>
+              </ul>
             </div>
+          </div>
 
-            <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
-              <div className="blue-box">
-                <h3 className="blue-box-head"> Software subscription</h3>
-                <ul className="blue-box-list">
-                  <li>Connect OCEMS</li>
-                  <li>Connect PLC/flowmeter</li>
-                  <li>₹749 including gst.</li>
-            
-                </ul>
-              </div>
-            </div>
-            <div className="col-12 col-lg-6 d-flex align-items-start blue-card mb-3">
-              <div className="blue-box">
-                <h3 className="blue-box-head"> </h3>
-                <ul className="blue-box-list">
-                  
-                
-                </ul>
-              </div>
+          <div className="col-lg-6 mx-auto d-flex align-items-start blue-card mb-3"data-aos="fade-out">
+            <div className="blue-box">
+              <h3 className="blue-box-head">Software subscription</h3>
+              <ul className="blue-box-list">
+                <li>Connect OCEMS</li>
+                <li>Connect PLC/flowmeter</li>
+                <li>₹749 including GST.</li>
+              </ul>
             </div>
           </div>
         </div>
-
+        </div>
+         {/*End product features  */}
         {/* divider */}
         <div className="p-5"></div>
         <div className="p-2"></div>
@@ -347,13 +427,13 @@ export default class Products extends Component {
         <div>
           <div className="container">
             <div className="row">
-              <div className="col-12">
+              <div className="col-12"data-aos="fade-out">
                 <h3 className="products-head mb-5">
                   Treatment Technology Equipments
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/circuit.png"
@@ -368,7 +448,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/factory.png"
@@ -383,7 +463,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/settings.png"
@@ -407,12 +487,12 @@ export default class Products extends Component {
               {/* divider */}
 
               <div className="col-12">
-                <h3 className="products-head mb-5">
+                <h3 className="products-head mb-5"data-aos="fade-out">
                   IT Services and Solutions
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/computer.png"
@@ -427,7 +507,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/wifi2.png"
@@ -442,7 +522,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/globe.png"
@@ -463,13 +543,13 @@ export default class Products extends Component {
               <div className="p-2"></div>
               {/* divider */}
 
-              <div className="col-12">
+              <div className="col-12"data-aos="zoom-in">
                 <h3 className="products-head mb-5">
                   Value Added Smart Services
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/pay.png"
@@ -484,7 +564,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/search.png"
@@ -499,7 +579,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/monitor.png"
@@ -521,13 +601,13 @@ export default class Products extends Component {
               <div className="p-3"></div>
               {/* divider */}
 
-              <div className="col-12">
+              <div className="col-12"data-aos="zoom-in">
                 <h3 className="products-head mb-5">
                   EBHOOM Turnkey Approach to Treatment Plant!
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/sketch.png"
@@ -541,7 +621,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/motherboard.png"
@@ -556,7 +636,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/technology.png"
@@ -574,7 +654,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/app-development.png"
@@ -590,7 +670,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/list.png"
@@ -605,7 +685,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/network.png"
@@ -620,7 +700,7 @@ export default class Products extends Component {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/customer-service.png"
@@ -646,7 +726,177 @@ export default class Products extends Component {
 
         <div className="p-5"></div>
         {/* divider */}
+        <>
+       {/* divider */}
+       <div className="p-5"></div>
+        <div className="p-1"></div>
+        {/* divider */}
+    <div className="container 1">
+    <div className="col-12 "data-aos="zoom-in">
+              <h3 className="products-head mb-5">Technical specifications - Multi Parameter Sensor</h3>
+            </div>
+      <div className="row">
+        {/* Left Side: Image */}
+        <div className="col-lg-6"data-aos="zoom-in">
+          <img src="/assets/images/Ebhoom/18.png" alt="Your Image" className="table-img" />
+        </div>
+
+        {/* Right Side: Table */}
+        <div className="col-lg-6">
+        
+          <table className="table"data-aos="zoom-out">
+            <thead>
+           
+              <tr>
+                <th>Sensor</th>
+                <th>Multi parameter</th>
+              </tr>
+            </thead>
+            {multiparameter.map((item)=>(
+              <tbody>
+              <tr>
+                <td>{item.sensor}</td>
+                <td>{item.paramenter}</td>
+              </tr>
+              </tbody>
+            ))}
+           
+          </table>
+        </div>
+      </div>
+    </div>
+    {/* divider  */}
+    <div className="p-5"></div>
+    {/* divider */}
+    <div className="container 2">
+           <div className="col-12 "data-aos="zoom-in">
+              <h3 className="products-head mb-5">Technical specifications - pH Sensor</h3>
+            </div>
+      <div className="row">
+        {/* Left Side: Table */}
+        <div className="col-lg-6"data-aos="zoom-in">
+        <table className="table"data-aos="zoom-out">
+            <thead>
+           
+              <tr>
+                <th>Sensor</th>
+                <th>pH</th>
+              </tr>
+            </thead>
+            {ph.map((item)=>(
+              <tbody>
+              <tr>
+                <td>{item.sensor}</td>
+                <td>{item.ph}</td>
+              </tr>
+              </tbody>
+            ))}
+           
+          </table>       
+           </div>
+
+        {/* Right Side: Image */}
+        <div className="col-lg-6">
+           {/* Left Side: Image */}
+        <div className="col-lg-6"data-aos="zoom-in">
+          <img src="/assets/images/Ebhoom/12.png" alt="Your Image" className="table-img2" />
+        </div>
+     
+         
+        </div>
+      </div>
+    </div>
+    <div className="container 1">
+    <div className="col-12 "data-aos="zoom-in">
+              <h3 className="products-head mb-5">Technical specifications - Analyser cabinet</h3>
+            </div>
+      <div className="row">
+        {/* Left Side: Image */}
+        <div className="col-lg-6"data-aos="zoom-in">
+          <img src="/assets/images/device_1.jpg" alt="Your Image" className="table-img" />
+        </div>
+
+        {/* Right Side: Table */}
+        <div className="col-lg-6">
+        
+          <table className="table"data-aos="zoom-out">
+            <thead>
+           
+              <tr>
+                <th>SensorData collection hub & Display Cabinet</th>
+                <th>ABS make</th>
+              </tr>
+            </thead>
+            
+              <tbody>
+              <tr>
+                <td>Display </td>
+                <td>2" LCD display</td>
+              </tr>
+              <tr>
+                <td>Data Transfer features</td>
+                <td>
+                  <ul>
+                    <li>PDF/Excel report from Server</li>
+                    <li>All parameters shall be displayed on Display and software accessible through dedicated username and Password</li>
+                    <li>Cloud based DATA logger is used to transfer data to CPCB/ SPCB Portal</li>
+                    <li>Visual alarm shall be activated when the status increases above set limit (Optional).</li>
+                    <li>Additional custom features as required by the user (Optional)</li>
+                  </ul>
+                </td>
+              </tr>
+              {analyserCabinet.map((item)=>(
+              <tr>
+                <td>{item.sensor}</td>
+                <td>{item.abs}</td>
+              </tr>
+              ))}
+              </tbody>
+            
+           
+          </table>
+        </div>
+      </div>
+    </div>
+      {/* divider */}
+      <div className="p-5"></div>
+        <div className="p-1"></div>
+        {/* divider */}
+        <div className="container 2">
+           <div className="col-12 "data-aos="zoom-in">
+              <h3 className="products-head mb-5">Installation & Commissioning</h3>
+            </div>
+      <div className="row">
+        {/* Left Side: Table */}
+        <div className="col-lg-6 mt-5"data-aos="zoom-in">
+               <ol>
+                  <li>Connect the pH sensor in pipeline and multi parameter sensor in open tank</li>
+                  <li>Fix the wall mout and insert the butterfly behind the WWOCEMS24.</li>
+                  <li>Plug the DC charger adapter.</li>
+                  <li>Check the display switch.</li>
+                  <li>Check the Internet connectivity.</li>
+                  <li>Call customer support for new user registration</li>
+                  <li>View the quality results on App with login credentials.</li>
+               </ol>
+           </div>
+
+        {/* Right Side: Image */}
+        <div className="col-lg-6">
+           {/* Left Side: Image */}
+        <div className="col-lg-6"data-aos="zoom-in">
+          <img src="/assets/images/Ebhoom/21.jpg" alt="Your Image" className="table-img2" />
+        </div>
+     
+         
+        </div>
+      </div>
+    </div>
+     {/* divider */}
+     <div className="p-5"></div>
+        <div className="p-1"></div>
+        {/* divider */}
+    </>
       </>
     );
   }
-}
+export default Products;
