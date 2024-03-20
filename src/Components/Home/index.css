@@ -43,7 +43,7 @@
   text-align: center;
 }
 
-.learn-more-button {
+.learn-more-button-home {
   padding: 5px 50px;
   color: #162328;
   border: 1px solid #162328;
@@ -53,7 +53,7 @@
   font-family: "Euclid Circular B";
   margin-bottom: 25px;
 }
-.learn-more-button:hover {
+.learn-more-button-home:hover {
   background-color: #162328;
   color: #ffffff;
   box-shadow: 0 0 2em #236a805b;
