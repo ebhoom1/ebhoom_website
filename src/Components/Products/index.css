@@ -119,9 +119,35 @@
   padding: 8px; /* Adjust padding as needed */
   border-bottom: 1px solid #ddd; /* Bottom border for table cells */
   border: 2px solid;
+  cursor: pointer;
 }
 
 /* Style for alternate rows (optional) */
 .table tbody tr:nth-child(even) {
   background-color: #f9f9f9; /* Background color for alternate rows */
 }
+.boxed-list {
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 10px; /* Add padding inside the box */
+  background-color: #f9f9f9; /* Light gray background color */
+  width: 90%; /* Set width to 90% of the container */
+  max-width: 500px; /* Set maximum width to ensure responsiveness */
+  margin: 0 auto; /* Center the box horizontally */
+}
+
+.boxed-list ol {
+  padding-left: 20px; /* Add left padding to align the list items */
+}
+
+.boxed-list ol li {
+  margin-bottom: 5px; /* Add margin between list items */
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .boxed-list {
+    width: 500px; /* Set width for tablets and larger screens */
+  }
+}
+
