@@ -314,6 +314,15 @@ section {
   color: #236a80;
 }
 
-.cover-img{
-  width: 93vh;
+.cover-img {
+  width: 100%; 
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
+}
+
+@media screen and (max-width: 992px) {
+  .cover-img {
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
 }
