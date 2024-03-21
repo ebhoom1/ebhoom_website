@@ -768,14 +768,21 @@ const  Products=()=>{
     {/* divider  */}
     <div className="p-5"></div>
     {/* divider */}
+   
     <div className="container 2">
-           <div className="col-12 "data-aos="zoom-in">
+    <div className="col-12 "data-aos="zoom-in">
               <h3 className="products-head mb-5">Technical specifications - pH Sensor</h3>
             </div>
       <div className="row">
-        {/* Left Side: Table */}
+        {/* Left Side: Image */}
         <div className="col-lg-6"data-aos="zoom-in">
-        <table className="table"data-aos="zoom-out">
+          <img src="/assets/images/Ebhoom/12.png" alt="Your Image" className="table-img" />
+        </div>
+
+        {/* Right Side: Table */}
+        <div className="col-lg-6">
+        
+          <table className="table"data-aos="zoom-out">
             <thead>
            
               <tr>
@@ -792,21 +799,14 @@ const  Products=()=>{
               </tbody>
             ))}
            
-          </table>       
-           </div>
-
-        {/* Right Side: Image */}
-        <div className="col-lg-6">
-           {/* Left Side: Image */}
-        <div className="col-lg-6"data-aos="zoom-in">
-          <img src="/assets/images/Ebhoom/12.png" alt="Your Image" className="table-img2" />
-        </div>
-     
-         
+          </table>
         </div>
       </div>
     </div>
-    <div className="container 1">
+    {/* divider  */}
+    <div className="p-5"></div>
+    {/* divider */}
+    <div className="container 3">
     <div className="col-12 "data-aos="zoom-in">
               <h3 className="products-head mb-5">Technical specifications - Analyser cabinet</h3>
             </div>
@@ -862,29 +862,32 @@ const  Products=()=>{
       <div className="p-5"></div>
         <div className="p-1"></div>
         {/* divider */}
-        <div className="container 2">
+        <div className="container 4">
            <div className="col-12 "data-aos="zoom-in">
               <h3 className="products-head mb-5">Installation & Commissioning</h3>
             </div>
       <div className="row">
         {/* Left Side: Table */}
         <div className="col-lg-6 mt-5"data-aos="zoom-in">
-               <ol>
-                  <li>Connect the pH sensor in pipeline and multi parameter sensor in open tank</li>
-                  <li>Fix the wall mout and insert the butterfly behind the WWOCEMS24.</li>
-                  <li>Plug the DC charger adapter.</li>
-                  <li>Check the display switch.</li>
-                  <li>Check the Internet connectivity.</li>
-                  <li>Call customer support for new user registration</li>
-                  <li>View the quality results on App with login credentials.</li>
-               </ol>
+        <img src="/assets/images/Ebhoom/21.jpg" alt="Your Image" className="table-img" />
+ 
            </div>
 
         {/* Right Side: Image */}
         <div className="col-lg-6">
            {/* Left Side: Image */}
         <div className="col-lg-6"data-aos="zoom-in">
-          <img src="/assets/images/Ebhoom/21.jpg" alt="Your Image" className="table-img2" />
+        <div className="boxed-list">
+            <ol>
+              <li>Connect the pH sensor in pipeline and multi parameter sensor in open tank</li>
+              <li>Fix the wall mount and insert the butterfly behind the WWOCEMS24.</li>
+              <li>Plug the DC charger adapter.</li>
+              <li>Check the display switch.</li>
+              <li>Check the Internet connectivity.</li>
+              <li>Call customer support for new user registration.</li>
+              <li>View the quality results on App with login credentials.</li>
+            </ol>
+  </div>
         </div>
      
          
