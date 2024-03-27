@@ -338,7 +338,7 @@ const  PerformanceCheck=[
               <div className="col-12 col-lg-6  text-center" data-aos="fade-down">
                 <div class="ratio ratio-16x9">
                   <img
-                    src="/assets/images/Ebhoom/17.png"
+                    src="/assets/images/Ebhoom/23.png"
                     alt="Ocems Calibration"
                   ></img>
                 </div>
