@@ -738,7 +738,7 @@ const  Products=()=>{
       <div className="row">
         {/* Left Side: Image */}
         <div className="col-lg-6"data-aos="zoom-in">
-          <img src="/assets/images/Ebhoom/18.png" alt="Your Image" className="table-img" />
+          <img src="/assets/images/Ebhoom/18.jpg" alt="Your Image" className="table-img" />
         </div>
 
         {/* Right Side: Table */}
