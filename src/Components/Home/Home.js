@@ -142,7 +142,7 @@ const Home=()=>{
                   ></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item ">
+                  <div class="carousel-item active">
                     <img
                       src="assets/images/device_1.jpg"
                       class="d-block w-100"
@@ -238,7 +238,7 @@ const Home=()=>{
               </h2>
               <Link to="/products#wms">
                 {" "}
-                <button className="learn-more-button mb-3" type="button">
+                <button className="learn-more-button-home mb-3" type="button">
                   Learn more
                 </button>
               </Link>
