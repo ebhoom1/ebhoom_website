@@ -142,18 +142,7 @@ const Home=()=>{
                   ></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="assets/images/Ocems-box.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5> </h5>
-                      <p>.</p>
-                    </div>
-                  </div>
-                        <div class="carousel-item ">
+                  <div class="carousel-item ">
                     <img
                       src="assets/images/device_1.jpg"
                       class="d-block w-100"
@@ -255,7 +244,7 @@ const Home=()=>{
               </Link>
             </div>
             <div className="col-12 col-lg-6 text-center">
-              <img className="wms-img w-75 " src="assets/images/wms.png" />
+              <img className="wms-img w-75 " src="assets/images/Ocems-box.png" />
             </div>
           </div>
         </div>
