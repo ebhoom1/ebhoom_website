@@ -862,38 +862,30 @@ const  Products=()=>{
       <div className="p-5"></div>
         <div className="p-1"></div>
         {/* divider */}
-        <div className="container 4">
-           <div className="col-12 "data-aos="zoom-in">
-              <h3 className="products-head mb-5">Installation & Commissioning</h3>
-            </div>
-      <div className="row">
-        {/* Left Side: Table */}
-        <div className="col-lg-6 mt-5"data-aos="zoom-in">
-        <img src="/assets/images/Ebhoom/21.jpg" alt="Your Image" className="table-img" />
- 
-           </div>
+       
 
-        {/* Right Side: Image */}
-        <div className="col-lg-6">
-           {/* Left Side: Image */}
-        <div className="col-lg-6"data-aos="zoom-in">
-        <div className="boxed-list">
-            <ol>
-              <li>Connect the pH sensor in pipeline and multi parameter sensor in open tank</li>
-              <li>Fix the wall mount and insert the butterfly behind the WWOCEMS24.</li>
-              <li>Plug the DC charger adapter.</li>
-              <li>Check the display switch.</li>
-              <li>Check the Internet connectivity.</li>
-              <li>Call customer support for new user registration.</li>
-              <li>View the quality results on App with login credentials.</li>
-            </ol>
+    <div className="container 4">
+  <div className="col-12 " data-aos="zoom-in">
+    <h3 className="products-head mb-5">Installation & Commissioning</h3>
   </div>
-        </div>
-     
-         
-        </div>
+  <div className="row justify-content-center"> {/* Center the row */}
+    <div className="col-lg-6" data-aos="zoom-in">
+      {/* Center the content within the column */}
+      <div className="text-center">
+        <ol>
+          <li>Connect the pH sensor in pipeline and multi parameter sensor in open tank</li>
+          <li>Fix the wall mount and insert the butterfly behind the WWOCEMS24.</li>
+          <li>Plug the DC charger adapter.</li>
+          <li>Check the display switch.</li>
+          <li>Check the Internet connectivity.</li>
+          <li>Call customer support for new user registration.</li>
+          <li>View the quality results on App with login credentials.</li>
+        </ol>
       </div>
     </div>
+  </div>
+</div>
+
      {/* divider */}
      <div className="p-5"></div>
         <div className="p-1"></div>
