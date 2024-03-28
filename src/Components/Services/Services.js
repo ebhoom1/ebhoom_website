@@ -338,6 +338,7 @@ const  PerformanceCheck=[
               <div className="col-12 col-lg-6  text-center" data-aos="fade-down">
                 <div class="ratio ratio-16x9">
                   <img
+                    className="img-ocemsCalibration"
                     src="/assets/images/Ebhoom/23.png"
                     alt="Ocems Calibration"
                   ></img>
@@ -404,7 +405,11 @@ const  PerformanceCheck=[
                 <strong style={{ marginRight: '25px' }}>COD:  </strong>
                 Use KHP Certified Reference Material (CRM) <br/>
                 </p>
-                
+                <p>
+                <strong style={{ marginRight: '25px' }}>TSS:  </strong>
+                Use Formazine solution. Care to be taken in handling solution.
+                </p>
+                <p>Frequency of function test is every 15 days. STPs may engage the firms providing services of O & M.</p>
                 
                 
               </div>
@@ -432,7 +437,7 @@ const  PerformanceCheck=[
                                 <>
                                 {parameter.map((item)=>(
                 <p className="steps">
-                  
+                 
                 <span style={{ marginRight: '25px'}}>{item.item} </span> {item.step}
                 </p>
                ))}
@@ -446,11 +451,7 @@ const  PerformanceCheck=[
                 </div>
                  </div>
                 </section>
-                <p>
-                <strong style={{ marginRight: '25px' }}>TSS:  </strong>
-                Use Formazine solution. Care to be taken in handling solution.
-                </p>
-                <p>Frequency of function test is every 15 days. STPs may engage the firms providing services of O & M.</p>
+                
             </div>
             <div>
              
