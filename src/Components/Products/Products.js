@@ -752,14 +752,16 @@ const  Products=()=>{
                 <th>Multi parameter</th>
               </tr>
             </thead>
-            {multiparameter.map((item)=>(
+           
               <tbody>
+              {multiparameter.map((item)=>(
               <tr>
                 <td>{item.sensor}</td>
                 <td>{item.paramenter}</td>
               </tr>
+               ))}
               </tbody>
-            ))}
+           
            
           </table>
         </div>
@@ -790,14 +792,16 @@ const  Products=()=>{
                 <th>pH</th>
               </tr>
             </thead>
-            {ph.map((item)=>(
+           
               <tbody>
+              {ph.map((item)=>(
               <tr>
                 <td>{item.sensor}</td>
                 <td>{item.ph}</td>
               </tr>
+                ))}
               </tbody>
-            ))}
+          
            
           </table>
         </div>
