@@ -32,35 +32,32 @@ const Tdps = () => {
             </section>
             {/* End Hero */}
             {/* about */}
-            <div className="container">
-                <div className="row">
-            <div className="col-12">
-              <h3 className="wms-head2" style={{marginTop:"20px"}}>Ebhoom </h3>
-            </div>
-            <div className="col-12 col-lg-7 mb-3">
-              <p className="wms-desc mb-3">
-              Ebhoom is Real-Time Data Acquisition, Monitoring and Analytics suite of Products for Industrial Emissions, Effluent Discharges and Ambient Air Monitoring. Ebhoom DAS Software, 
-              Ebhoom Server Platform, Ebhoom Environ Data Logger provides a comprehensive solution for all Industry Environmental needs.
+            
+        
+<div className="container ">
+  <div className="row  justify-content-center"> {/* Center the row */}
+    <div className="col-12 "data-aos="zoom-in">
+      <h3 className="wms-head2  text-center" style={{ marginTop: "20px" }}><strong className='text-blue'>Ebhoom</strong> </h3>
+    </div>
+    <div className="col-12 col-lg-7 mb-3"data-aos="zoom-out">
+      <p className="wms-desc mb-3 ">
+        Ebhoom is Real-Time Data Acquisition, Monitoring and Analytics suite of Products for Industrial Emissions, Effluent Discharges and Ambient Air Monitoring. Ebhoom DAS Software,
+        Ebhoom Server Platform, Ebhoom Environ Data Logger provides a comprehensive solution for all Industry Environmental needs.
 
-                Ebhoom Client data acquisition software provides direct integration with any analyzer (make or model) using RS232/RS485/Modbus/Ascii Protocols etc. Ebhoom Clients provide secured encrypted data communication with Central Server using open REST based API or MQTT based protocols.
+        Ebhoom Client data acquisition software provides direct integration with any analyzer (make or model) using RS232/RS485/Modbus/Ascii Protocols etc. Ebhoom Clients provide secured encrypted data communication with Central Server using open REST based API or MQTT based protocols.
 
-                Ebhoom Environment provides wireless data logger which eliminates the need for PC for client side data logging and can transmit data using LAN/Wifi/ GPRS etc. The wireless data logger provides capability to integrate with any of the standard industry analyzers using RS232/RS485 interface.
+        Ebhoom Environment provides wireless data logger which eliminates the need for PC for client side data logging and can transmit data using LAN/Wifi/ GPRS etc. The wireless data logger provides capability to integrate with any of the standard industry analyzers using RS232/RS485 interface.
 
-                Ebhoom Mobile Application provides up-to the minute information on the data in Ebhoom platform for industry and regulator consumption. The mobile application needs secured login credentials for viewing the data.
+        Ebhoom Mobile Application provides up-to the minute information on the data in Ebhoom platform for industry and regulator consumption. The mobile application needs secured login credentials for viewing the data.
 
-                Ebhoom Central Server platform provides a common software for pollution board to collect data from various industries using Open API. Apart from this the software provides pre-build reports,alarms and alerts as per the regulatory standards prescribed by various regulatory authorities.The Ad-hoc reporting module provides capability to analyze the data up-to 2 second granularity over the collected parameters and provide forecasting using Holt-Winters forecast models
-              </p>
-            </div>
+        Ebhoom Central Server platform provides a common software for pollution board to collect data from various industries using Open API. Apart from this the software provides pre-build reports, alarms and alerts as per the regulatory standards prescribed by various regulatory authorities. The Ad-hoc reporting module provides capability to analyze the data up-to 2 second granularity over the collected parameters and provide forecasting using Holt-Winters forecast models
+      </p>
+    </div>
+  </div>
+</div>
 
-            <div className="col-12 col-lg-5 mb-3 text-center">
-              <img
-                className="cover-img"
-                src="assets/images/products/TPDS-cover.jpg"
-                alt="ebhoom"
-              />
-            </div>
-          </div>
-        </div>
+      
+       
             {/* End about */}
            {/* Product description */}
            <section id="products" className="products">
