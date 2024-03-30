@@ -25,9 +25,9 @@ const Home=()=>{
               <div class="carousel-inner"data-aos="fade-out">
                 <div class="carousel-item active" data-bs-interval="1000">
                   <h1 className="banner-head">
-                    <span className="text-green">India's</span> own Pollution,{" "}
+                    <span className="text-green">India's</span> Environmental {" "}
                     <br />
-                    Monitoring System.
+                   technology.
                   </h1>
                   <h3></h3>
                 </div>
@@ -244,7 +244,7 @@ const Home=()=>{
               </Link>
             </div>
             <div className="col-12 col-lg-6 text-center">
-              <img className="wms-img w-75 " src="assets/images/Ocems-box.png" />
+              <img className="wms-img w-75 " src="assets/images/Ebhoom/24.jpg" />
             </div>
           </div>
         </div>
