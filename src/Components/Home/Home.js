@@ -25,7 +25,7 @@ const Home=()=>{
               <div class="carousel-inner"data-aos="fade-out">
                 <div class="carousel-item active" data-bs-interval="1000">
                   <h1 className="banner-head">
-                    <span className="text-green">India's</span>
+                    <span className="text-green">India's</span> <br />
                     Environmental
                     <br />
                    technology.
