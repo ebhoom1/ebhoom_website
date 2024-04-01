@@ -230,7 +230,7 @@ const Home=()=>{
               </Link>
             </div>
             <div className="col-12 col-lg-6 text-center">
-              <img className="wms-img w-75 " src="assets/images/Ebhoom/vaayu-25.png" />
+              <img className="wms-img w-75 " src="assets/images/Ebhoom/25.png" />
             </div>
           </div>
         </div>
