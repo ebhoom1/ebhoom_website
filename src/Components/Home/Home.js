@@ -25,28 +25,14 @@ const Home=()=>{
               <div class="carousel-inner"data-aos="fade-out">
                 <div class="carousel-item active" data-bs-interval="1000">
                   <h1 className="banner-head">
-                    <span className="text-green">India's</span>Environmental
+                    <span className="text-green">India's</span>
+                    Environmental
                     <br />
                    technology.
                   </h1>
-                  <h3></h3>
+                 
                 </div>
-                {/* <div class="carousel-item">
-                  <h1 className="banner-head">
-                    We offer <br />
-                    <span className="text-green">Environmental</span>{" "}
-                    solutions
-                  </h1>
-                  <h3></h3>
-                </div>
-                <div class="carousel-item">
-                  <h1 className="banner-head">
-                    <span className="text-green">Purity</span> is Rarity,{" "}
-                    <br />
-                    We provide it
-                  </h1>
-                  <h3></h3>
-                </div> */}
+         
               </div>
             </div>
           </div>
@@ -244,7 +230,7 @@ const Home=()=>{
               </Link>
             </div>
             <div className="col-12 col-lg-6 text-center">
-              <img className="wms-img w-75 " src="assets/images/Ebhoom/vaayu-25.jpeg" />
+              <img className="wms-img w-75 " src="assets/images/Ebhoom/16.png" />
             </div>
           </div>
         </div>
