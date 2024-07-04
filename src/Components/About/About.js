@@ -86,8 +86,8 @@ export default class About extends Component {
                   environmental services company that gives the best value to
                   our customers and our biodiversity.
                 </p>
-                <p className="mb-0">Mohammed Faheem</p>
-                <p>CEO</p>
+                
+                
               </div>
             </div>
           </div>
