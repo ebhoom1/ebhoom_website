@@ -41,10 +41,7 @@ export default class Contact extends Component {
                     <p className="silver-box-desc">+91  62823 86462</p>
                     
                   </a>
-                  <a className="link" href="tel:+918086704092">
-                    <p className="silver-box-desc">+91 80867 04092</p>
-                    
-                  </a>
+                 
                 </div>
               </div>
 
