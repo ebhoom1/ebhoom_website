@@ -11,6 +11,10 @@ const Home=()=>{
   useEffect(() => {
     AOS.init({ duration: 2000, once: true });
   }, []);
+  const handleClick = () => {
+    window.open('https://ocems.ebhoom.com', '_blank');
+};
+
   return (
     <>
       <div className="container">
@@ -30,7 +34,7 @@ const Home=()=>{
                     <br />
                    technology.
                   </h1>
-                 
+                 <button onClick={handleClick} className="btn-Ocems">Ocems</button>
                 </div>
          
               </div>
