@@ -56,6 +56,74 @@ const Tdps = () => {
   </div>
 </div>
 
+{/* subscription */}
+<div className='container' data-aos="fade-up">
+  <h3 className='text-center mb-3 products-head'>Subscription</h3>
+  <div className='row d-flex align-items-stretch'>
+    <div className='col-lg-4 mb-3 ' data-aos="fade-up">
+      <div className='border border-success text-center m-2 h-100 p-3' style={{borderRadius:'10px'}}>
+        <h4 className='mb-4'>Business Basic</h4>
+        <p>Powerful automation to digitize your <br />water footprint</p>
+        <h2 className='text-success text-center'><b>₹2999</b></h2>
+        <p>per month, billed annually <br /> 1 facility, 5 field instruments per facility, <br />1 user per org</p>
+        <div className='border border-success border-10x m-3'>
+          <h5 className='text-success p-2'><b> <Link className='text-success'  to={'/subscriptionform'} style={{textDecoration:'none'}}>Get Started</Link></b></h5>
+        </div>
+        <p className='text-start ms-3'><b>Everything in Free, Plus</b></p>
+        <div className='text-start m-3 p-2'>
+          <p><i class="fa-solid fa-circle-check"></i> Water source and consumption data digitization <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Alert and alarm Management <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Regulatory compliances <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> 24*5 Email and Phone Support <br /></p>
+        </div>
+      </div>
+    </div>
+
+    <div className='col-lg-4 mb-3' data-aos="fade-up">
+      <div className='border border-success text-center m-2 h-100 p-3'  style={{borderRadius:'10px'}}>
+        <h4 className='mb-4'>Business Standard</h4>
+        <p>Everything you need to manage water quantity and quality</p>
+        <h2 className='text-success text-center'><b>₹5999</b></h2>
+        <p>per month, billed annually <br /> 1 facility, 15 field instruments per facility, <br />2 users per org</p>
+        <div className='border border-success border-10x m-3'>
+        <h5 className='text-success p-2'><b> <Link className='text-success'  to={'/subscriptionform'} style={{textDecoration:'none'}}>Get Started</Link></b></h5>
+        </div>
+        <p className='text-start ms-3'><b>Everything in Business Basic +</b></p>
+        <div className='text-start m-3 p-2'>
+          <p><i class="fa-solid fa-circle-check"></i> Water quality management<br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> APIs based data sources <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Advanced water data dashboards <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Regulatory documents management <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Water analytics including water neutrality <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Data availability reports <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> User and Role management <br /></p>
+        </div>
+      </div>
+    </div>
+
+    <div className='col-lg-4 mb-3' data-aos="fade-up">
+      <div className='border border-success text-center m-2 h-100 p-3'  style={{borderRadius:'10px'}}>
+        <h4 className='mb-4'>Business Premium</h4>
+        <p>Water is core to the business operations of your organization</p>
+        <h2 className='text-success text-center'><b>₹9999</b></h2>
+        <p>per month, billed annually <br /> 1 facility, 30 field instruments per facility, <br />5 users per org</p>
+        <div className='border border-success border-10x m-3'>
+        <h5 className='text-success p-2'><b> <Link className='text-success'  to={'/subscriptionform'} style={{textDecoration:'none'}}>Get Started</Link></b></h5>
+        </div>
+        <p className='text-start ms-3'><b>Everything in Business Standard +</b></p>
+        <div className='text-start m-3 p-2'>
+          <p><i class="fa-solid fa-circle-check"></i> Support for SCADA, BMS, DCS and OT integrations<br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Advanced water data dashboards <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Escalation Engine for alerts <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Maintenance mode and data correction workflows <br /></p>
+          <p><i class="fa-solid fa-circle-check"></i> Dedicated customer success manager <br /></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
       
        
             {/* End about */}
