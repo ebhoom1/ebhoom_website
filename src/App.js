@@ -18,6 +18,9 @@ import Store from "./Components/Store/Store";
 import ScrollToTop from "./Components/Utils/ScrollToTop";
 import Tpds from "./Components/TPDS/Tpds";
 import Subscription from "./Components/SubscriptionForm/Subscription";
+import BlogContent8 from "./Components/Blog/BlogContent8";
+import BlogContent7 from "./Components/Blog/BlogContent7";
+import BlogContent9 from "./Components/Blog/BlogContent9";
 
 function App() {
   return (
@@ -36,12 +39,17 @@ function App() {
     <Route exact path="/subscriptionform" element={<Subscription />} />
 
 
-    <Route exact path="/blog/top-tips-for-a-beautiful-food-waste-bin" element={<BlogContent />} />
-    <Route exact path="/blog/why-kerala-floods-were-the-worst-in-a-century" element={<BlogContent2 />} />
-    <Route exact path="/blog/rainwater-harvesting-system-in-tn-mans-home" element={<BlogContent3 />} />
-    <Route exact path="/blog/man-shows-how-to-set-up-a-rainwater-harvesting-system" element={<BlogContent4 />} />
-    <Route exact path="/blog/water-crisis" element={<BlogContent5 />} />
+    <Route exact path="/blog/understandingOCEMS" element={<BlogContent />} />
+    <Route exact path="/blog/periyar-river" element={<BlogContent2 />} />
+    <Route exact path="/blog/water-crisis-banglore" element={<BlogContent3 />} />
+    <Route exact path="/blog/kakkanad-lessons" element={<BlogContent4 />} />
+    <Route exact path="/blog/waste-management" element={<BlogContent5 />} />
     <Route exact path="/blog/couple-recycles-10000-tonnes-of-waste" element={<BlogContent6 />} />
+    <Route exact path="/blog/ocems" element={<BlogContent7 />} />
+    <Route exact path="/blog/carbon-tracking" element={<BlogContent8 />} />
+    <Route exact path="/blog/carbon-footprint" element={<BlogContent9 />} />
+
+
   
     </Routes> 
     <Footer />

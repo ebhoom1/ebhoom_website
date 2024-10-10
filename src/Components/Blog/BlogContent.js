@@ -15,48 +15,57 @@ export default class BlogContent extends Component {
       <div className='col-12 col-lg-3'>
         
         </div>
-        <div className='col-12 col-lg-6'>
+        <div className='col-12 col-lg-6' data-aos="fade-up">
          <Link className='link' to='/blog'> <button className='back-button'>Back</button></Link>
-          <img className='img-fluid blog-img' src='/assets/images/blog/1.jpg' alt='ebhoom'/>
-        <h1 className='mb-3 font'>Top tips for a beautiful food waste bin</h1>
-        <p className='font'>How to keep your kitchen food caddy bin clean, tidy and sweet smelling – whether you compost your food waste or recycle it through your local council.</p>
+          <img className='img-fluid blog-img' src='/assets/images/understandingOCEMS.jpeg' alt='ebhoom' />
+        <h1 className='mb-3 font'>Understanding OCEMS: The Future of Industrial Pollution Control</h1>
+        <p className='font'>With global awareness of environmental protection on the rise, industries face increasing pressure to adopt cleaner, more efficient practices. One of the key tools that industries are using to meet these expectations is the Online Continuous Emission Monitoring System (OCEMS). </p>
         <div className='mb-3'>
 <span className=' d-flex justify-content-start align-items-center blog-list-desc'><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-calendar me-1" viewBox="0 0 16 16">
   <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-</svg> 12/06/22</span> <span className=' d-flex justify-content-start align-items-center blog-list-desc'><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-clock me-1" viewBox="0 0 16 16">
+</svg> 10/10/24</span> <span className=' d-flex justify-content-start align-items-center blog-list-desc'><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-clock me-1" viewBox="0 0 16 16">
   <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
   <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-</svg> 3 minute read</span>
+</svg> 10 minute read</span>
 </div>
 <div></div>
 
-<h3  className='font'>1.Recycle your food regularly</h3>
-<p className='mb-3 font'>Your kitchen food waste bin fills up pretty quickly, right? Empty it out as soon as food nears the lid and you'll never need to deal with mould or the other kinds of gunk that form when food breaks down.</p>
+<h3  className='font'>What is OCEMS?</h3>
+<p className='mb-3 font'>OCEMS, or Online Continuous Emission Monitoring System, is a sophisticated technology that continuously tracks emissions released by industrial processes. By using advanced sensors and data collection methods, OCEMS records real-time emission levels of key pollutants such as carbon dioxide (CO2), sulfur dioxide (SO2), nitrogen oxides (NOx), and particulate matter (PM).
 
-<h3  className='font'>2.Squeeze your tea bags</h3>
-<p className='mb-3 font'>Leave tea bags and coffee grinds to cool off before putting them in the food waste caddy. If it gets hot and steamy, it'll create extra water and encourage those frisky fruit flies. If it's too late, find out how to get rid of fruit flies  from Good Housekeeping.</p>
-<h3  className='font'>3. Line your food waste caddy</h3>
-<p className='mb-3 font'>Use stale bread, food-soiled paper or old newspaper to absorb excess moisture and avoid mouldy stuff getting stuck in the corners. This is also a great way to save your kitchen from bad smells.</p>
-<h3  className='font'>4. Try a biodegradable food waste bag</h3>
-<p className='mb-3 font'>Food waste bags are great. They keep everything together in the caddy, avoiding the development of dreaded bin juice around the base. And they make it much cleaner and easier to get your food waste into your outside bin. Just tie the top together like a regular bin bag and chuck the whole lot into your food recycling bin. Because they're biodegradable, these bags can be picked up by your usual council collection and won't get you into trouble with the rubbish collectors.</p>
-<h3  className='font'>5. Separate your steaks</h3>
-<p className='mb-3 font'>Save your kitchen from bad smells. Put stinky scraps like meat, fish or bones into a biodegradable food waste bag, wrap them in newspaper or empty them straight into the main food waste bin outside so your council can take them away for recycling before flies and maggots find their way inside. Don't forget to check your outside recycling bins for maggots from time to time too if you have a lot of meat and fish scraps – and get rid of any maggots  you notice before they take over.</p>
-<h3  className='font'>7. Or eat less meat</h3>
-<p className='mb-3 font'>Meat takes longer to break down than lovely vegetables, and attracts more bugs like flies into your kitchen. If you forget to empty a veg-based food waste caddy, you'll find it full of mould when you return – forget to empty out your meat scraps and you could come back to a bin full of maggots. The easiest way to avoid this is to eat less meat in the first place. You'll have less meaty leftovers to recycle, and you'll have cut the impact of your food on the environment at the same time. It's a win-win.</p>
-<h3 className='font'>8. Get creative with your food waste caddy</h3>
-<p className='mb-3 font'>You don’t have to use the standard plastic council food waste bin if it doesn’t do much for your kitchen décor. Get creative – look into vintage crockery or other watertight containers with lids that could hold a week’s worth of vegetable peelings in style. You could also splash out on a custom-designed ceramic kitchen compost crock or shiny pail.</p>
-<h3 className='font'>9. Keep a lid on it</h3>
-<p className='mb-3 font'>Closing the lid of your food waste bin tightly will stop fruit flies and other winged friends from getting in to lay eggs, and odours from getting out.</p>
-<h3 className='font'>10. Keep it cool</h3>
-<p className='mb-3 font'>Store your food waste caddy out of direct sunlight, as the heat can speed up smells.</p>
-<h3 className='font'>11. And keep it clean</h3>
-<p className='mb-3 font'>Rinse out your food waste bucket once a week with hot water containing a slug of tea tree oil or lemon juice, then leave to dry. Lemon juice is a natural odour remover and will help to kill any germs that might be lurking around your recycling bin.</p>
-<h3 className='font'>12. Get the whole family involved</h3>
-<p className='mb-3 font'>There's nothing worse than digging non-food waste out of your caddy. If you live with others, make sure they know what can go in the food waste bin and what can't. Ask kids to draw pictures to remind them, or stick a note on the outside of your caddy. There are plenty more tips to get everyone to remember that waste food shouldn't go to landfill – and videos to show what happens to the food you do recycle – over at Recycle Now .</p>
-<h3 className='font'>13. Try composting</h3>
-<p className='mb-3 font'>If you have a garden, you don't need to rely on a council food waste collection. You can take your food waste straight out to the compost heap, or use a kitchen composting bin with a special charcoal filter to keep smells at bay. If you're planning to put meat in your compost, get a sealed bin to contain smells and discourage scavengers. Bad smells, or pests like rats, are a sign that you're putting too much meat in the pile. Turn the heap regularly and keep the meat waste to a minimum.</p>
-<h3 className='font'>14. Eat more of your food</h3>
-<p className='mb-3 font'>Write a weekly menu plan, and make a shopping list, so you only buy what you need. Raid recipe books to stop food going to waste – mushy bananas make a stonking banana loaf and Sunday roasts make great stews, pies and stock. Get some inspiration for making roasts go further. Recycling food is great, but eating it is better.</p>
+These monitoring systems are typically connected to central databases and regulatory agencies, ensuring transparency and accountability. For industries operating under strict environmental guidelines, OCEMS provides a streamlined method of demonstrating compliance by generating continuous data on emissions output.
+
+
+
+</p>
+
+<h3  className='font'>The Need for Real-Time Monitoring</h3>
+<p className='mb-3 font'>One of the biggest advantages of OCEMS is real-time emission monitoring. In traditional systems, industries often relied on periodic sampling and testing, which left large gaps in data and made it difficult to react quickly to emission spikes. Real-time data provided by OCEMS fills this gap, offering continuous insights into emission levels, which enables industries to
+
+react immediately to irregularities. If pollutant levels spike unexpectedly, real-time monitoring systems alert operators instantly, allowing them to take immediate corrective action.It
+ensure ongoing compliance. With real-time data, industries can keep emissions below regulatory limits at all times, avoiding the risk of penalties or shutdowns.It also 
+improve efficiency. Emission data can highlight areas where processes are inefficient, leading to opportunities for optimization, which not only reduces emissions but also lowers costs.</p>
+<h3  className='font'>How OCEMS Helps with Compliance</h3>
+<p className='mb-3 font'>OCEMS ensures compliance by providing a continuous and accurate record of emissions that can be reported directly to regulatory authorities. This system enables industries to demonstrate that they are within the legal limits for pollutant discharge. Moreover, having automated, real-time data reduces the chances of human error in reporting or operational oversight.
+
+Key regulations such as the Clean Air Act in the United States and the Air (Prevention and Control of Pollution) Act in India mandate strict monitoring of industrial emissions, and OCEMS offers a reliable way to stay compliant. Many regions now require industries to adopt OCEMS to not only monitor their emissions but also to make this data accessible to environmental bodies for review and audits.</p>
+<h3  className='font'>Future of OCEMS Technology</h3>
+<p className='mb-3 font'>The future of OCEMS is closely tied to advancements in IoT (Internet of Things) and AI (Artificial Intelligence). These technologies are expected to make emission monitoring even more efficient, precise, and user-friendly.
+<ul>
+  <li>IoT Integration: The integration of IoT allows OCEMS devices to connect wirelessly to other industrial monitoring systems. This connectivity enables seamless data sharing across different platforms and locations, improving the accuracy of emission tracking.
+  </li>
+  <li>AI-Powered Analytics: Artificial intelligence can analyze the massive amount of data generated by OCEMS, providing actionable insights into trends and anomalies. With AI, industries can predict potential emission spikes and take preventative measures before non-compliance occurs.
+  </li>
+  <li>Cloud-Based Systems: Cloud computing is transforming how emission data is stored and accessed. With cloud-based OCEMS, industries can store vast amounts of emission data securely while making it easily accessible for audits, regulatory reporting, and performance analysis.
+  </li>
+  <li>Smarter Sensors: Advancements in sensor technology are improving the accuracy and reliability of OCEMS. New-generation sensors are more sensitive, durable, and capable of detecting a wider range of pollutants, making the systems more robust and versatile.</li>
+
+</ul>
+
+
+
+</p>
+
 
 
         

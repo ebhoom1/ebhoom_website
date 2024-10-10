@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Subscription() {
+  
   return (
     <div>
       <h1 className='mt-5 text-center'></h1>

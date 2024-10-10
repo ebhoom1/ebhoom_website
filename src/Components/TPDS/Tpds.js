@@ -39,7 +39,7 @@ const Tdps = () => {
     <div className="col-12 "data-aos="zoom-in">
       <h3 className="wms-head2  text-center" style={{ marginTop: "20px" }}><strong className='text-blue'>Ebhoom</strong> </h3>
     </div>
-    <div className="col-12 col-lg-7 mb-3"data-aos="zoom-out">
+    <div className="col-12 col-lg-7 mb-3" data-aos="zoom-out">
       <p className="wms-desc mb-3 ">
         Ebhoom is Real-Time Data Acquisition, Monitoring and Analytics suite of Products for Industrial Emissions, Effluent Discharges and Ambient Air Monitoring. Ebhoom DAS Software,
         Ebhoom Server Platform, Ebhoom Environ Data Logger provides a comprehensive solution for all Industry Environmental needs.
