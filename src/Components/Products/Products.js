@@ -207,7 +207,7 @@ const  Products=()=>{
                 <h4 className="services-head">Monitors tank levels</h4>
               </div>
             </div> */}
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
+            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4 "data-aos="fade-out">
               <img
                 className="w-25"
                 src="assets/images/icon/wifi3.png"

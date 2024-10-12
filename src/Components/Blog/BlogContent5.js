@@ -17,7 +17,7 @@ export default class BlogContent5 extends Component {
               <Link className='link' to='/blog'>
                 <button className='back-button'>Back</button>
               </Link>
-              <img className='img-fluid blog-img' src='/assets/images/watermanagement.jpeg' alt='industrial wastewater treatment'/>
+              <img className='img-fluid blog-img' src='/assets/images/watermanagement.jpg' alt='industrial wastewater treatment'/>
               <h1 className='mb-3 font'>
                 Efficient Water Treatment Solutions for Industrial Wastewater Management
               </h1>

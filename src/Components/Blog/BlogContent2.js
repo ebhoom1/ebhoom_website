@@ -17,7 +17,7 @@ export default class BlogContent2 extends Component {
               <Link className='link' to='/blog'>
                 <button className='back-button'>Back</button>
               </Link>
-              <img className='img-fluid blog-img' src='/assets/images/periyar.jpeg' alt='ebhoom' />
+              <img className='img-fluid blog-img' src='/assets/images/periyar.jpg' alt='ebhoom' />
               <h1 className='mb-3 font'>Industrial Effluent and Wastewater Dumping: The Periyar River Pollution Crisis.</h1>
               <p className='font'>
                 The Periyar River in Kerala, once a crucial water source, is now under severe threat due to unchecked industrial pollution. Factories in the region have been discharging untreated wastewater and harmful effluents directly into the river, leading to high levels of contamination. This has affected both the environment and public health, with toxic chemicals and heavy metals like lead and mercury found in the water, causing illnesses among local residents and damaging aquatic life.

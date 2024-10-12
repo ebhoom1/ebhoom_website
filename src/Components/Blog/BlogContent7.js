@@ -20,7 +20,7 @@ export default class BlogContent7 extends Component {
               <Link className='link' to='/blog'>
                 <button className='back-button'>Back</button>
               </Link>
-              <img className='img-fluid blog-img' src='/assets/images/ocemsbenefits.jpeg' alt='OCEMS manufacturing'/>
+              <img className='img-fluid blog-img' src='/assets/images/ocemsbenefits.jpg' alt='OCEMS manufacturing'/>
               <h1 className='mb-3 font'>
                 5 Benefits of Installing OCEMS in Manufacturing Plants
               </h1>

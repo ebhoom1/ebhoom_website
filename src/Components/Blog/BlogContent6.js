@@ -17,7 +17,7 @@ export default class BlogContent6 extends Component {
               <Link className='link' to='/blog'>
                 <button className='back-button'>Back</button>
               </Link>
-              <img className='img-fluid blog-img' src='/assets/images/ocems.jpeg' alt='OCEMS implementation'/>
+              <img className='img-fluid blog-img' src='/assets/images/ocems.jpg' alt='OCEMS implementation'/>
               <h1 className='mb-3 font'>
                 A Step-by-Step Guide to Implementing OCEMS in Your Industry
               </h1>

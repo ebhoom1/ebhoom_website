@@ -20,7 +20,7 @@ export default class BlogContent9 extends Component {
               <Link className='link' to='/blog'>
                 <button className='back-button'>Back</button>
               </Link>
-              <img className='img-fluid blog-img' src='/assets/images/carbonurban.jpeg' alt='City skyline with carbon reduction'/>
+              <img className='img-fluid blog-img' src='/assets/images/carbonurban.jpg' alt='City skyline with carbon reduction'/>
               <h1 className='mb-3 font'>
                 The Growing Carbon Footprint of Cities: How Urban Areas Can Reduce Emissions
               </h1>

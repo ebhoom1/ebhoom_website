@@ -17,7 +17,7 @@ export default class BlogContent extends Component {
         </div>
         <div className='col-12 col-lg-6' data-aos="fade-up">
          <Link className='link' to='/blog'> <button className='back-button'>Back</button></Link>
-          <img className='img-fluid blog-img' src='/assets/images/understandingOCEMS.jpeg' alt='ebhoom' />
+          <img className='img-fluid blog-img' src='/assets/images/understandingOCEMS.jpg' alt='ebhoom' />
         <h1 className='mb-3 font'>Understanding OCEMS: The Future of Industrial Pollution Control</h1>
         <p className='font'>With global awareness of environmental protection on the rise, industries face increasing pressure to adopt cleaner, more efficient practices. One of the key tools that industries are using to meet these expectations is the Online Continuous Emission Monitoring System (OCEMS). </p>
         <div className='mb-3'>

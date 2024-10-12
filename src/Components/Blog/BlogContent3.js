@@ -17,7 +17,7 @@ export default class BlogContent3 extends Component {
               <Link className='link' to='/blog'>
                 <button className='back-button'>Back</button>
               </Link>
-              <img className='img-fluid blog-img' src='/assets/images/banglore.jpeg' alt='ebhoom' />
+              <img className='img-fluid blog-img' src='/assets/images/banglore.jpg' alt='ebhoom' />
               <h1 className='mb-3 font'>
                 Water Crisis in Bangalore: How Water Treatment Solutions Can Prevent Future Shortages
               </h1>

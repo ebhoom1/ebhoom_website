@@ -17,7 +17,7 @@ export default class BlogContent4 extends Component {
               <Link className='link' to='/blog'>
                 <button className='back-button'>Back</button>
               </Link>
-              <img className='img-fluid blog-img' src='/assets/images/kakkanad.jpeg' alt='kakkanad flats water pollution'/>
+              <img className='img-fluid blog-img' src='/assets/images/kakkanad.jpg' alt='kakkanad flats water pollution'/>
               <h1 className='mb-3 font'>
                 Water Treatment Technologies for Residential Complexes: Lessons from Kakkanad Flats
               </h1>

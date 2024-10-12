@@ -25,7 +25,7 @@ const BlogList = () => {
           <div className='col-12 col-lg-4 mb-3' data-aos="fade-up">
             <Link className='link' to='/blog/understandingOCEMS'>
               <div className='blog-box'>
-                <img className='img-fluid blog-img' src='assets/images/understandingOCEMS.jpeg' alt='ebhoom' />
+                <img className='img-fluid blog-img' src='/assets/images/understandingOCEMS.jpg' alt='ebhoom' />
                 <p className='blog-list-head'>Understanding OCEMS: The Future of Industrial Pollution Control</p>
                 <div className='mb-3'>
                   <span className='float-start d-flex justify-content-center align-items-center blog-list-desc'>
@@ -48,7 +48,7 @@ const BlogList = () => {
           <div className='col-12 col-lg-4 mb-3' data-aos="fade-up">
             <Link className='link' to='/blog/periyar-river'>
               <div className='blog-box'>
-                <img className='img-fluid blog-img' src='assets/images/periyar.jpeg' alt='ebhoom' />
+                <img className='img-fluid blog-img' src='/assets/images/periyar.jpg' alt='ebhoom' />
                 <p className='blog-list-head'>Industrial Effluent and Wastewater Dumping: The Periyar River Pollution Crisis.</p>
                 <div className='mb-3'>
                   <span className='float-start d-flex justify-content-center align-items-center blog-list-desc'>
@@ -70,7 +70,7 @@ const BlogList = () => {
           <div className='col-12 col-lg-4  mb-3'  data-aos="fade-up">
 <Link className='link' to='/blog/water-crisis-banglore'>
 <div className='blog-box'>
-<img className='img-fluid blog-img' src='assets/images/banglore.jpeg' alt='ebhoom'/>
+<img className='img-fluid blog-img' src='/assets/images/banglore.jpg' alt='ebhoom'/>
  
  <p className='blog-list-head'>Water Crisis in Bangalore: How Water Treatment Solutions Can Prevent Future Shortages
 </p>
@@ -91,7 +91,7 @@ const BlogList = () => {
 <div className='col-12 col-lg-4  mb-3'  data-aos="fade-up">
 <Link className='link' to='/blog/kakkanad-lessons'>
 <div className='blog-box'>
-<img className='img-fluid blog-img' src='assets/images/kakkanad.jpeg' alt='ebhoom'/>
+<img className='img-fluid blog-img' src='/assets/images/kakkanad.jpg' alt='ebhoom'/>
  
  <p className='blog-list-head'>Water Treatment Technologies for Residential Complexes: Lessons from Kakkanad Flats
 </p>
@@ -113,7 +113,7 @@ const BlogList = () => {
 <div className='col-12 col-lg-4  mb-3'  data-aos="fade-up">
 <Link className='link' to='/blog/waste-management'>
 <div className='blog-box'>
-<img className='img-fluid blog-img' src='assets/images/watermanagement.jpeg' alt='ebhoom'/>
+<img className='img-fluid blog-img' src='/assets/images/watermanagement.jpg' alt='ebhoom'/>
  
  <p className='blog-list-head'>Efficient Water Treatment Solutions for Industrial Wastewater Management
 </p>
@@ -134,7 +134,7 @@ const BlogList = () => {
 <div className='col-12 col-lg-4  mb-3'  data-aos="fade-up">
 <Link className='link' to='/blog/ocems'>
 <div className='blog-box'>
-<img className='img-fluid blog-img' src='/assets/images/ocems.jpeg' alt='ebhoom'/>
+<img className='img-fluid blog-img' src='/assets/images/ocems.jpg' alt='ebhoom'/>
  
  <p className='blog-list-head'> A Step-by-Step Guide to Implementing OCEMS in Your Industry
 </p>
@@ -155,7 +155,7 @@ const BlogList = () => {
 <div className='col-12 col-lg-4  mb-3'  data-aos="fade-up">
 <Link className='link' to='/blog/ocems'>
 <div className='blog-box'>
-<img className='img-fluid blog-img' src='assets/images/ocemsbenefits.jpeg' alt='ebhoom'/>
+<img className='img-fluid blog-img' src='/assets/images/ocemsbenefits.jpg' alt='ebhoom'/>
  
  <p className='blog-list-head'> 5 Benefits of Installing OCEMS in Manufacturing Plants
 </p>
@@ -176,7 +176,7 @@ const BlogList = () => {
 <div className='col-12 col-lg-4  mb-3'  data-aos="fade-up">
 <Link className='link' to='/blog/carbon-tracking'>
 <div className='blog-box'>
-<img className='img-fluid blog-img' src='assets/images/carbonfootprint.png' alt='ebhoom' width={'280px'}/>
+<img className='img-fluid blog-img' src='/assets/images/carbonfootprint.png' alt='ebhoom' width={'280px'}/>
  
  <p className='blog-list-head'> Carbon Emission Tracking: The Key to Reducing Your Industry’s Carbon Footprint
 </p>
@@ -197,7 +197,7 @@ const BlogList = () => {
 <div className='col-12 col-lg-4  mb-3'  data-aos="fade-up">
 <Link className='link' to='/blog/carbon-footprint'>
 <div className='blog-box'>
-<img className='img-fluid blog-img' src='/assets/images/carbonurban.jpeg' alt='ebhoom'/>
+<img className='img-fluid blog-img' src='/assets/images/carbonurban.jpg' alt='ebhoom'/>
  
  <p className='blog-list-head'> The Growing Carbon Footprint of Cities: How Urban Areas Can Reduce Emissions
 </p>
