@@ -9,7 +9,7 @@ export default class Header extends Component {
           <Link className="navbar-brand" to="/">
             {/* Optimized logo image */}
             <img
-              src="/assets/images/logo.webp"
+              src="/assets/images/logo.png"
                alt="EBHOOM - Environmental Monitoring and Pollution Control Solutions"
               
               loading="eager" // Ensures quick rendering for LCP
