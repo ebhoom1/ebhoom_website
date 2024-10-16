@@ -144,13 +144,56 @@ const  Products=()=>{
             </div>
           </div>
            </div>
-          <div className="container">
-            <div className="row justify-content-center">
-             <div className="col-lg-6 col-md-8 col-sm-10"data-aos="zoom-in">
-              <img src="assets/images/products/Products-cover.jpg" className="img-fluid " alt="Centered Image" />
-              </div>
-            </div>
-           </div>
+           <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-12" data-aos="zoom-out">
+            <h3 className="products-head mb-5">Features</h3>
+          </div>
+
+          {/* Feature Cards */}
+          <div className="col-12 col-lg-3 service-card mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/wifi3.png" alt="WiFi Connectivity" />
+            <h4 className="services-head">WiFi Connectivity</h4>
+          </div>
+
+          <div className="col-12 col-lg-3 service-card  mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/quality.png" alt="Water Quality Check" />
+            <h4 className="services-head">
+              Checks water quality: <span className="fw-bold text-blue">pH, Temperature, TDS, Turbidity, BOD, COD</span>
+            </h4>
+          </div>
+
+          <div className="col-12 col-lg-3 service-card  mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/monitor.png" alt="Easy Operation" />
+            <h4 className="services-head">Monitored easily by each higher authorities & staff attendence with locator</h4>
+          </div>
+
+          <div className="col-12 col-lg-3 service-card  mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/24-hours.png" alt="24 Hours Monitoring" />
+            <h4 className="services-head">24 Hours Monitoring</h4>
+          </div>
+
+          <div className="col-12 col-lg-3 service-card  mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/high-signal.png" alt="In-Built GSM Internet" />
+            <h4 className="services-head">In-built GSM Internet</h4>
+          </div>
+
+          <div className="col-12 col-lg-3 service-card  mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/database.png" alt="Data Saved" />
+            <h4 className="services-head">Data is Saved</h4>
+          </div>
+
+          <div className="col-12 col-lg-3 service-card  mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/worker.png" alt="Reduces Manpower" />
+            <h4 className="services-head">Reduces Manpower & Saves Money</h4>
+          </div>
+
+          <div className="col-12 col-lg-3 service-card  mb-5" data-aos="fade-out">
+            <img className="w-25" src="assets/images/icon/cross-platform.png" alt="Web & Mobile App" />
+            <h4 className="services-head">Web App & Mobile App</h4>
+          </div>
+        </div>
+      </div>
           {/* End Our Products */}
        
 
@@ -161,8 +204,7 @@ const  Products=()=>{
        
 
         {/* divider */}
-        <div className="p-5"></div>
-
+       
         {/* divider */}
 
         {/* product features  */}
@@ -207,42 +249,11 @@ const  Products=()=>{
                 <h4 className="services-head">Monitors tank levels</h4>
               </div>
             </div> */}
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4 "data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/wifi3.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">WiFi Connectivity</h4>
-              </div>
-            </div>
+         
 
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/quality.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">
-                  Checks water quality:{" "}
-                  <span className="fw-bold text-blue">
-                    pH, Temperature, TDS, Turbidity, BOD, COD
-                  </span>
-                </h4>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/booking.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">Easy operation</h4>
-              </div>
-            </div>
+  
+
+  
             {/* <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
               <img
                 className="w-25"
@@ -253,26 +264,7 @@ const  Products=()=>{
                 <h4 className="services-head">Displays flowrates</h4>
               </div>
             </div> */}
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/24-hours.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">24 hours Monitorning</h4>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/high-signal.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">In-build GSM internet</h4>
-              </div>
-            </div>
+            
             {/* <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4">
               <img
                 className="w-25"
@@ -283,51 +275,10 @@ const  Products=()=>{
                 <h4 className="services-head">Automatic &amp; Manual mode</h4>
               </div>
             </div> */}
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/database.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">Datas are saved</h4>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/worker.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">
-                  Reduces Manpower &amp; saves money
-                </h4>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/dashboard.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">
-                  Monitored easily by each higher authorities &amp; staff
-                  attendence with locator
-                </h4>
-              </div>
-            </div>
-            <div className="col-12 col-lg-3 d-flex align-items-start service-card mb-4"data-aos="fade-out">
-              <img
-                className="w-25"
-                src="assets/images/icon/cross-platform.png"
-                alt="ebhoom"
-              />
-              <div className="ps-2">
-                <h4 className="services-head">Web App &amp; Mobile App</h4>
-              </div>
-            </div>
+           
+          
+           
+            
           </div>
         </div>
 
@@ -433,7 +384,7 @@ const  Products=()=>{
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/circuit.png"
@@ -448,7 +399,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/factory.png"
@@ -463,7 +414,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/settings.png"
@@ -492,12 +443,14 @@ const  Products=()=>{
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
-                <img
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
+             
+              <img
                   className="w-25"
                   src="assets/images/icon/computer.png"
                   alt="ebhoom"
                 />
+              
                 <div className="ps-2">
                   <h4 className="services-head">Software development</h4>
                   <p className="services-desc">
@@ -507,7 +460,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/wifi2.png"
@@ -522,7 +475,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/globe.png"
@@ -549,7 +502,7 @@ const  Products=()=>{
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/pay.png"
@@ -564,7 +517,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/search.png"
@@ -579,7 +532,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/monitor.png"
@@ -607,7 +560,7 @@ const  Products=()=>{
                 </h3>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/sketch.png"
@@ -621,7 +574,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/motherboard.png"
@@ -636,7 +589,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/technology.png"
@@ -654,7 +607,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/app-development.png"
@@ -670,7 +623,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/list.png"
@@ -685,7 +638,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/network.png"
@@ -700,7 +653,7 @@ const  Products=()=>{
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3"data-aos="fade-out">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3"data-aos="fade-out">
                 <img
                   className="w-25"
                   src="assets/images/icon/customer-service.png"
@@ -875,7 +828,7 @@ const  Products=()=>{
   <div className="row justify-content-center"> {/* Center the row */}
     <div className="col-lg-6" data-aos="zoom-in">
       {/* Center the content within the column */}
-      <div className="text-center">
+      <div className="text-start">
         <ol>
           <li>Connect the pH sensor in pipeline and multi parameter sensor in open tank</li>
           <li>Fix the wall mount and insert the butterfly behind the WWOCEMS24.</li>

@@ -151,3 +151,24 @@
   }
 }
 
+/* Add to your CSS file */
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  text-align: center; /* Center text inside */
+  margin-bottom: 20px; /* Space between cards */
+}
+
+.service-card img {
+  margin-bottom: 10px; /* Add space between the image and text */
+}
+
+@media only screen and (max-width: 600px) {
+  .service-card {
+    width: 100%; /* Make cards full width on mobile */
+  }
+
+ 
+}

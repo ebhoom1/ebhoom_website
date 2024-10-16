@@ -1,5 +1,5 @@
 .green-card {
-  background: linear-gradient(to bottom, #83d475, #abe098);
+  background: linear-gradient(to bottom, #65d152, #69a453);
   padding: 30px 0px;
 }
 
@@ -8,4 +8,31 @@
   font-size: 20px;
   font-weight: 400;
   font-style: italic;
+}
+.green-card {
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  padding: 30px;
+  margin: 50px auto; /* Center the card horizontally */
+  max-width: 900px; /* Set a max width to align it neatly */
+}
+
+.green-card:hover {
+  transform: scale(1.02); /* Slight zoom effect on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.wms-head2 {
+  text-align: center;
+  color: #020202; /* White text */
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.wms-desc {
+  color: #070707; /* White text */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
 }

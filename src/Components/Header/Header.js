@@ -4,13 +4,19 @@ import { Link } from "react-router-dom";
 export default class Header extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-          <Link class="navbar-brand" to="/">
-            <img src="/assets/images/logo.png" />
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div className="container">
+          <Link className="navbar-brand" to="/">
+            {/* Optimized logo image */}
+            <img
+              src="/assets/images/logo.webp"
+               alt="EBHOOM - Environmental Monitoring and Pollution Control Solutions"
+              
+              loading="eager" // Ensures quick rendering for LCP
+            />
           </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -18,36 +24,35 @@ export default class Header extends Component {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <Link class="nav-link " aria-current="page" to="/">
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav ms-auto">
+              <Link className="nav-link" aria-current="page" to="/">
                 Home
               </Link>
-              <Link class="nav-link" to="/about">
+              <Link className="nav-link" to="/about" title="About Ebhoom Kochi">
                 About
               </Link>
-              <Link class="nav-link" to="/services">
+              <Link className="nav-link" to="/services" title="View our Services ">
                 Services
               </Link>
-              <Link class="nav-link" to="/products">
+              <Link className="nav-link" to="/products" title="View our product catalog">
                 Products
               </Link>
-              <Link class="nav-link" to="/store">
-                Store <sup><span class="badge bg-secondary">New</span></sup>
+              <Link className="nav-link" to="/store">
+                Store <sup><span className="badge bg-secondary">New</span></sup>
               </Link>
-              <Link class="nav-link" to="/blog">
+              <Link className="nav-link" to="/blog" title="View our blogs">
                 Blog
               </Link>
-             
-                <Link class="nav-link" to="/tpds">
+              <Link className="nav-link" to="/tpds">
                 TPDS
-                </Link>
-              <Link class="nav-link" to="/careers">
+              </Link>
+              <Link className="nav-link" to="/careers" title="Check out our careers">
                 Careers
               </Link>
-              <Link class="nav-link" to="/contact">
+              <Link className="nav-link" to="/contact" title="Contact us ">
                 Contact Us
               </Link>
             </div>

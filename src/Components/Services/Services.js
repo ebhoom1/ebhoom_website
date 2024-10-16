@@ -212,7 +212,7 @@ const  PerformanceCheck=[
               </div>
 
               <div className="col-12 col-lg-6 text-center"data-aos="fade-down">
-                <img className="wms-img w-75 " src="assets/images/wms.png" />
+                <img className="wms-img w-75 " src="assets/images/wms.png"  alt="WMS"  loading="lazy"/>
               </div>
             </div>
           </div>
@@ -260,8 +260,7 @@ const  PerformanceCheck=[
         {/* go green ends */}
 
         {/* divider */}
-        <div className="p-5"></div>
-        <div className="p-4"></div>
+       
         {/* divider */}
 
         <div className="container">
@@ -321,7 +320,38 @@ const  PerformanceCheck=[
                   <h3 className="products-head mb-5 mt-5">Calibration of <strong className="text-blue">OCEMS</strong> </h3>
                   
                 </div>
-              <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mb-3"data-aos="fade-up">
+
+                <div className="row" >
+                <div className="col-lg-6  col-12 " data-aos="fade-up"> 
+                <p>STP Operators may deploy different makes of instruments based on different technologies 
+                measuring effluent quality in terms of <strong className="text-green">PH</strong>, <strong className="text-green">BOD</strong>, <strong className="text-green">COD</strong>, and <strong className="text-green">TSS</strong>, therefore, operation and calibration 
+                mechanism of such instruments will differ. This document covers calibration procedure forcommonly used technologies for effluent monitoring, available as on date, that is UV-Vis principle 
+                based system for  <strong className="text-green">BOD</strong>, <strong className="text-green">COD</strong>, & <strong className="text-green">TSS</strong> measurement having dual beam scanning and Multipoint 
+                calibration mechanism.
+              </p>
+              <ul><span className="text-bold">Complete calibration of <strong className="text-blue">OCEMS</strong> requires following checks, calibrations & validations:</span>
+                <li>Function Check</li>
+                <li>Basic Installation & Calibration</li>
+                <li>Continuous Validation</li>
+                <li>Performance Check</li>
+                </ul>
+                </div>
+                <div className="col-lg-6 col-12">
+                <div className=" d-flex align-items-center justify-content-center" data-aos="fade-down" > 
+                  <img
+                    className="img-ocemsCalibration  d-flex align-items-center justify-content-center"
+                    src="/assets/images/Ebhoom/23.png"
+                    alt="Ocems Calibration"
+                    style={{height:'350px'}}
+                    loading="lazy"
+                  ></img>
+                </div>
+                   </div>
+
+
+
+                </div>
+              {/* <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mb-3"data-aos="fade-up">
               <p>STP Operators may deploy different makes of instruments based on different technologies 
                 measuring effluent quality in terms of <strong className="text-green">PH</strong>, <strong className="text-green">BOD</strong>, <strong className="text-green">COD</strong>, and <strong className="text-green">TSS</strong>, therefore, operation and calibration 
                 mechanism of such instruments will differ. This document covers calibration procedure forcommonly used technologies for effluent monitoring, available as on date, that is UV-Vis principle 
@@ -335,7 +365,7 @@ const  PerformanceCheck=[
                 <li>Performance Check</li>
                 </ul>
               </div>
-              <div className="col-12 col-lg-6  text-center" data-aos="fade-down">
+              <div className="col-12 col-lg-6  text-center d-flex align-items-center justify-content-center" data-aos="fade-down">
                 <div class="ratio ratio-16x9">
                   <img
                     className="img-ocemsCalibration"
@@ -343,7 +373,7 @@ const  PerformanceCheck=[
                     alt="Ocems Calibration"
                   ></img>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div>
              
@@ -353,7 +383,7 @@ const  PerformanceCheck=[
           <div className="row">
             
             <div className="col-12 col-lg-6 mb-3"data-aos="fade-up">
-             <img src="/assets/images/Ebhoom/6.png" className="ratio ratio-16x9 mt-5"></img>
+             <img src="/assets/images/Ebhoom/6.png" className="ratio ratio-16x9 mt-5" alt="OCEMS image" loading="lazy"></img>
             </div>
             <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center"data-aos="fade-down">
               <p className="">
@@ -419,6 +449,7 @@ const  PerformanceCheck=[
                   <img
                     src="/assets/images/Ebhoom/8.png"
                     alt="Ocems Calibration"
+                     loading="lazy"
                   ></img>
                 </div>
               </div>
@@ -461,7 +492,7 @@ const  PerformanceCheck=[
           <div className="row">
             
             <div className="col-12 col-lg-6 mb-3 "data-aos="fade-up">
-             <img src="/assets/images/Ebhoom/16.png" className="ratio ratio-16x9 mt-5"></img>
+             <img src="/assets/images/Ebhoom/16.png" className="ratio ratio-16x9 mt-5" alt="OCEMS image" loading="lazy"></img>
             </div>
             <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center"data-aos="fade-down">
               <p className="">
@@ -548,6 +579,7 @@ const  PerformanceCheck=[
                   <img
                     src="/assets/images/Ebhoom/3.jpg"
                     alt="Ocems Calibration"
+                    loading="lazy"
                   ></img>
                 </div>
               </div>

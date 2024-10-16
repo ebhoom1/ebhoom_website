@@ -13,7 +13,7 @@ export default class About extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="wms-head2">Why EBHOOM ?</h3>
+              <h3 className="wms-head">Why EBHOOM ?</h3>
             </div>
             <div className="col-12 col-lg-7 mb-3">
               <p className="wms-desc mb-3">
@@ -32,8 +32,8 @@ export default class About extends Component {
                 ground, ground water and other water resources. The
                 reforestation is our eco-project, to give earth back the woods
                 we took from her. <br />
-                Our mission is to purify the earth, and our vision is that we
-                live a fresh life in it.
+               <span className="text-success">  <b>Our mission is to purify the earth, and our vision is that we
+               live a fresh life in it.</b></span>
               </p>
             </div>
 
@@ -66,32 +66,30 @@ export default class About extends Component {
         <div className="p-4"></div>
         {/* divider */}
         <div className="green-card">
-          <div className="container ">
-            <div className="row">
-              <div className="col-12">
-                <h3 className="wms-head2">Our Message</h3>
-              </div>
-              <div className="col-12 col-lg-10 mb-3 ">
-                <p className="wms-desc">
-                  Dear earth dwellers, <br />
-                  Our planet has been in existence for over 13 billion years.
-                  Now she is facing the consequences of human civilization in
-                  different forms , one of which is different types of
-                  pollution. As the advanced species on this planet , the
-                  responsibility is on our shoulders to restore this polluted
-                  planet into a better and fresh one. We have chosen to address
-                  these issues step by step. Our final goal is a clean earth and
-                  to get there Ebhoom Solution’s technologies will be the
-                  bridge.. We will strive to become a global leading
-                  environmental services company that gives the best value to
-                  our customers and our biodiversity.
-                </p>
-                
-                
-              </div>
-            </div>
-          </div>
-        </div>
+  <div className="container">
+    <div className="row">
+      <div className="col-12">
+        <h3 className="wms-head2">Our Message</h3>
+      </div>
+      <div className="col-12 col-lg-12 mb-3 ">
+        <p className="wms-desc p-3">
+          Dear earth dwellers, <br />
+          Our planet has been in existence for over 13 billion years.
+          Now she is facing the consequences of human civilization in
+          different forms, one of which is different types of pollution.
+          As the advanced species on this planet, the responsibility is
+          on our shoulders to restore this polluted planet into a better
+          and fresh one. We have chosen to address these issues step by
+          step. Our final goal is a clean earth, and to get there,
+          Ebhoom Solution’s technologies will be the bridge. We will
+          strive to become a global leading environmental services
+          company that gives the best value to our customers and our
+          biodiversity.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* divider */}
         <div className="p-5"></div>

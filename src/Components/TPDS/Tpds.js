@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect , useMemo } from 'react';
 import "./index.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -9,7 +9,47 @@ const Tdps = () => {
     useEffect(() => {
         AOS.init({ duration: 2000, once: true });
     }, []);
-
+    const subscriptionPlans = useMemo(() => [
+      {
+          title: 'Business Basic',
+          price: '₹2999',
+          details: [
+              'Water source and consumption data digitization',
+              'Alert and alarm Management',
+              'Regulatory compliances',
+              '24*5 Email and Phone Support',
+          ],
+          users: '1 user per org',
+          instruments: '5 field instruments per facility',
+      },
+      {
+          title: 'Business Standard',
+          price: '₹5999',
+          details: [
+              'Water quality management',
+              'APIs based data sources',
+              'Advanced water data dashboards',
+              'Regulatory documents management',
+              'Water analytics including water neutrality',
+              'Data availability reports',
+              'User and Role management',
+          ],
+          users: '2 users per org',
+          instruments: '15 field instruments per facility',
+      },
+      {
+          title: 'Business Premium',
+          price: '₹9999',
+          details: [
+              'Support for SCADA, BMS, DCS, and OT integrations',
+              'Escalation Engine for alerts',
+              'Maintenance mode and data correction workflows',
+              'Dedicated customer success manager',
+          ],
+          users: '5 users per org',
+          instruments: '30 field instruments per facility',
+      },
+  ], []);
     return (
         <>
             {/* Hero */}
@@ -57,71 +97,31 @@ const Tdps = () => {
 </div>
 
 {/* subscription */}
-<div className='container' data-aos="fade-up">
-  <h3 className='text-center mb-3 products-head'>Subscription</h3>
-  <div className='row d-flex align-items-stretch'>
-    <div className='col-lg-4 mb-3 ' data-aos="fade-up">
-      <div className='border border-success text-center m-2 h-100 p-3' style={{borderRadius:'10px'}}>
-        <h4 className='mb-4'>Business Basic</h4>
-        <p>Powerful automation to digitize your <br />water footprint</p>
-        <h2 className='text-success text-center'><b>₹2999</b></h2>
-        <p>per month, billed annually <br /> 1 facility, 5 field instruments per facility, <br />1 user per org</p>
-        <div className='border border-success border-10x m-3'>
-          <h5 className='text-success p-2'><b> <Link className='text-success'  to={'/subscriptionform'} style={{textDecoration:'none'}}>Get Started</Link></b></h5>
-        </div>
-        <p className='text-start ms-3'><b>Everything in Free, Plus</b></p>
-        <div className='text-start m-3 p-2'>
-          <p><i class="fa-solid fa-circle-check"></i> Water source and consumption data digitization <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Alert and alarm Management <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Regulatory compliances <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> 24*5 Email and Phone Support <br /></p>
-        </div>
-      </div>
-    </div>
-
-    <div className='col-lg-4 mb-3' data-aos="fade-up">
-      <div className='border border-success text-center m-2 h-100 p-3'  style={{borderRadius:'10px'}}>
-        <h4 className='mb-4'>Business Standard</h4>
-        <p>Everything you need to manage water quantity and quality</p>
-        <h2 className='text-success text-center'><b>₹5999</b></h2>
-        <p>per month, billed annually <br /> 1 facility, 15 field instruments per facility, <br />2 users per org</p>
-        <div className='border border-success border-10x m-3'>
-        <h5 className='text-success p-2'><b> <Link className='text-success'  to={'/subscriptionform'} style={{textDecoration:'none'}}>Get Started</Link></b></h5>
-        </div>
-        <p className='text-start ms-3'><b>Everything in Business Basic +</b></p>
-        <div className='text-start m-3 p-2'>
-          <p><i class="fa-solid fa-circle-check"></i> Water quality management<br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> APIs based data sources <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Advanced water data dashboards <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Regulatory documents management <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Water analytics including water neutrality <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Data availability reports <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> User and Role management <br /></p>
-        </div>
-      </div>
-    </div>
-
-    <div className='col-lg-4 mb-3' data-aos="fade-up">
-      <div className='border border-success text-center m-2 h-100 p-3'  style={{borderRadius:'10px'}}>
-        <h4 className='mb-4'>Business Premium</h4>
-        <p>Water is core to the business operations of your organization</p>
-        <h2 className='text-success text-center'><b>₹9999</b></h2>
-        <p>per month, billed annually <br /> 1 facility, 30 field instruments per facility, <br />5 users per org</p>
-        <div className='border border-success border-10x m-3'>
-        <h5 className='text-success p-2'><b> <Link className='text-success'  to={'/subscriptionform'} style={{textDecoration:'none'}}>Get Started</Link></b></h5>
-        </div>
-        <p className='text-start ms-3'><b>Everything in Business Standard +</b></p>
-        <div className='text-start m-3 p-2'>
-          <p><i class="fa-solid fa-circle-check"></i> Support for SCADA, BMS, DCS and OT integrations<br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Advanced water data dashboards <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Escalation Engine for alerts <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Maintenance mode and data correction workflows <br /></p>
-          <p><i class="fa-solid fa-circle-check"></i> Dedicated customer success manager <br /></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+ {/* Subscription Plans */}
+ <div className='container' data-aos="fade-up">
+                <h3 className='text-center mb-3 products-head'>Subscription</h3>
+                <div className='row'>
+                    {subscriptionPlans.map((plan, index) => (
+                        <div key={index} className='col-lg-4 mb-3' data-aos="fade-up">
+                            <div className='border border-success text-center m-2 h-100 p-3' style={{ borderRadius: '10px' }}>
+                                <h4 className='mb-4'>{plan.title}</h4>
+                                <h2 className='text-success'><b>{plan.price}</b></h2>
+                                <p>per month, billed annually <br /> {plan.users}, {plan.instruments}</p>
+                                <div className='border border-success m-3'>
+                                    <h5 className='text-success p-2'>
+                                        <Link className='text-success' to='/subscriptionform' style={{ textDecoration: 'none' }}>Get Started</Link>
+                                    </h5>
+                                </div>
+                                <div className='text-start m-3 p-2'>
+                                    {plan.details.map((detail, i) => (
+                                        <p key={i}><BiCheckCircle /> {detail}</p>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
 
 
       
@@ -135,7 +135,7 @@ const Tdps = () => {
                 </h3>
                 <div className="row">
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
-                        <div className="icon"><img src="/assets/images/icon/data-science.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/data-science.png" alt="data" loading="lazy" /></div>
                         <h4 className="title"><a href="">Data Acquisition</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' /> Supports any digital analyser make and models over RS232/RS485/Modbus protocols</li>
@@ -145,7 +145,7 @@ const Tdps = () => {
 
                     </div>
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div className="icon"><img src="/assets/images/icon/dashboard.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/dashboard.png" alt="Data image" loading="lazy" /></div>
                         <h4 className="title"><a href="">Data Management</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />State-of-the-art software with cloud and on premise deployment</li>
@@ -153,7 +153,7 @@ const Tdps = () => {
                           <li><BiCheckCircle className='icon-bullet' />Integrated workflow for seamless communication between Industry and Regulator.</li>
                         </ul>                    </div>
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <div className="icon"><img src="/assets/images/icon/mobile-development.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/mobile-development.png" alt="mobile app image" loading="lazy" /></div>
                         <h4 className="title"><a href="">Mobile App</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />Provides real time data from industry emission on mobile using secured login.</li>
@@ -161,7 +161,7 @@ const Tdps = () => {
                           <li><BiCheckCircle className='icon-bullet' />Real Time charts, Average value with prescribed limits.</li>
                         </ul>                    </div>
                     <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div className="icon"><img src="/assets/images/icon/report.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/report.png" alt="report image" loading="lazy" /></div>
                         <h4 className="title"><a href="">Reporting</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />Pre-configured reports as per Regulatory requirements.</li>
@@ -171,7 +171,7 @@ const Tdps = () => {
                          </div>
                          <div className="d-flex justify-content-center">
                          <div className="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div className="icon"><img src="/assets/images/icon/data-analysis.png" alt="" /></div>
+                        <div className="icon"><img src="/assets/images/icon/data-analysis.png" alt="Analysis image " loading="lazy" /></div>
                         <h4 className="title"><a href="">Data Analysis</a></h4>
                         <ul className="description">
                           <li><BiCheckCircle className='icon-bullet' />Parameter limits and rules pre-configured as directed by Central Pollution Control Board.</li>
@@ -203,11 +203,12 @@ const Tdps = () => {
         
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/sketch.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head ">Calibration</h4>
@@ -217,11 +218,12 @@ const Tdps = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/motherboard.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head">Calibration History</h4>
@@ -231,11 +233,12 @@ const Tdps = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/technology.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head">
@@ -247,11 +250,12 @@ const Tdps = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/app-development.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head">
@@ -263,11 +267,12 @@ const Tdps = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/list.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head">Dashboard</h4>
@@ -277,11 +282,12 @@ const Tdps = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/network.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head">Admin Panel and Analytics</h4>
@@ -292,11 +298,12 @@ const Tdps = () => {
                 </div>
               </div>
 
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/customer-service.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head">
@@ -307,11 +314,12 @@ const Tdps = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-12 col-lg-4 d-flex align-items-start service-card mb-3">
+              <div className="col-12 col-lg-4 d-flex align-items-center service-card mb-3">
                 <img
                   className="w-25"
                   src="assets/images/icon/customer-service.png"
                   alt="ebhoom"
+                  loading="lazy"
                 />
                 <div className="ps-2">
                   <h4 className="services-head">

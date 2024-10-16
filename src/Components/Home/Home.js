@@ -1,19 +1,20 @@
-import React, { Component } from "react";
+import React, { useEffect, Suspense, lazy, memo } from "react";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./index.css";
-import contact from './../Contact/Contact';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
+// Lazy-load the Contact component for better performance
+const Contact = lazy(() => import("./../Contact/Contact"));
 
-const Home=()=>{
+const Home = memo(() => {
   useEffect(() => {
-    AOS.init({ duration: 2000, once: true });
+    AOS.init({ duration: 1000, once: true }); // Optimized AOS settings
   }, []);
+
   const handleClick = () => {
-    window.open('https://ocems.ebhoom.com', '_blank');
-};
+    window.open("https://ocems.ebhoom.com", "_blank");
+  };
 
   return (
     <>
@@ -23,183 +24,134 @@ const Home=()=>{
           <div className="col-12 col-lg-6 mb-3">
             <div
               id="carouselExampleSlidesOnly"
-              class="carousel slide carousel-fade"
+              className="carousel slide carousel-fade"
               data-bs-ride="carousel"
             >
-              <div class="carousel-inner"data-aos="fade-out">
-                <div class="carousel-item active" data-bs-interval="1000">
+              <div className="carousel-inner" data-aos="fade-out">
+                <div className="carousel-item active" data-bs-interval="1000">
                   <h1 className="banner-head">
                     <span className="text-green">India's</span> <br />
-                    Environmental
-                    <br />
-                   technology.
+                    Environmental <br />
+                    technology.
                   </h1>
-                 <button onClick={handleClick} className="btn-Ocems">Ocems</button>
+                  <button onClick={handleClick} className="btn-Ocems">
+                    Ocems
+                  </button>
                 </div>
-         
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-6 text-center"data-aos="fade-in">
+
+          <div className="col-12 col-lg-6 text-center" data-aos="fade-in">
             <img
               className="nature"
               src="assets/images/nature.gif"
               alt="ebhoom"
+              loading="lazy"
             />
           </div>
         </div>
       </div>
 
-      {/* banner ends  */}
-
-      {/* divider */}
       <div className="p-3"></div>
 
-      {/* divider */}
-
-      {/* Description Start */}
       <section>
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="products-head mb-5"data-aos="fade-out">
-                INDIA'S OWN {" "}
-                <span className="text-green">POLLUTION MONITORING</span> SYSTEM
+              <h3 className="products-head mb-5" data-aos="fade-out">
+                INDIA'S OWN <span className="text-green">POLLUTION MONITORING</span> SYSTEM
               </h3>
             </div>
-            <div className="col-12 col-lg-6 mb-3 ">
-             <img src="/assets/images/mobile app.png" className="description"></img>
+            <div className="col-12 col-lg-6 mb-3">
+              <img
+                src="/assets/images/mobile app.png"
+                className="description"
+                alt="Mobile App"
+                loading="lazy"
+              />
             </div>
             <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-              <p className="about-home"data-aos="zoom-in">
-               We monitor ambient <strong className="text-green">Air quality</strong>,<strong className="text-green">Water quality</strong> {" "}and  {" "}
-               <strong className="text-green">Noise pollution</strong>. <br></br>
-               Interactive monitoring application sutis with all pollution continues montioring device.
+              <p className="about-home" data-aos="zoom-in">
+                We monitor ambient <strong className="text-green">Air quality</strong>,{" "}
+                <strong className="text-green">Water quality</strong>, and{" "}
+                <strong className="text-green">Noise pollution</strong>. <br />
+                Interactive monitoring application suits all pollution monitoring devices.
               </p>
-              <Link to="/contact"target="_blank">
-                {" "}
+              <Link to="/contact" target="_blank">
                 <button className="learn-more-button-home" type="button">
-                  Contact us
+                  Contact Us
                 </button>
               </Link>
             </div>
           </div>
         </div>
       </section>
-      {/*End Description Start */}
 
-      {/* Product 1 */}
       <section>
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="products-head mb-5"data-aos="fade-out">
-               EBHOOM comply your emission regulation with best cutting edge technology device.  {" "}
+              <h3 className="products-head mb-5" data-aos="fade-out">
+                EBHOOM complies with emission regulations using cutting-edge technology.
               </h3>
             </div>
             <div className="col-12">
-              <h3 className="products-head mb-5"data-aos="zoom-out">
-              <strong style={{color:"#236a80"}}>"Online Continuous Emission Montioring System"</strong>
+              <h3 className="products-head mb-5" data-aos="zoom-out">
+                <strong style={{ color: "#236a80" }}>
+                  "Online Continuous Emission Monitoring System"
+                </strong>
               </h3>
             </div>
+
             <div className="row justify-content-center">
-            <div className="col-12 col-lg-6 mb-3">
-              <div
-                id="carouselExampleCaptions"
-                class="carousel slide"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="assets/images/device_1.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5> </h5>
-                      <p>.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/images/device_2.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5> </h5>
-                      <p>.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="assets/images/device_3.jpg"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5> </h5>
-                      <p>.</p>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="prev"
+              <div className="col-12 col-lg-6 mb-3">
+                <div
+                  id="carouselExampleCaptions"
+                  className="carousel slide"
+                  data-bs-ride="carousel"
                 >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                  <div className="carousel-inner">
+                    {["device_1.jpg", "device_2.jpg", "device_3.jpg"].map((img, idx) => (
+                      <div className={`carousel-item ${idx === 0 ? "active" : ""}`} key={img}>
+                        <img
+                          src={`assets/images/${img}`}
+                          className="d-block w-100"
+                          alt={`Device ${idx + 1}`}
+                          loading="lazy"
+                        />
+                      </div>
+                    ))}
+                  </div>
+
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                  >
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                  >
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
               </div>
             </div>
-            </div>
+
             <div className="row justify-content-center">
               <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-              
-                <Link to="/contact"target="_blank">
-                  {" "}
-                  <button className="learn-more-button-home"  type="button">
-                  Get your <span className="text-green">OCEMS</span> now
+                <Link to="/contact" target="_blank">
+                  <button className="learn-more-button-home" type="button">
+                    Get your <span className="text-green">OCEMS</span> now
                   </button>
                 </Link>
               </div>
@@ -207,11 +159,11 @@ const Home=()=>{
           </div>
         </div>
       </section>
-      {/* End Product 1 */}
 
-      {/* products  */}
+      {/* product */}
+       {/* products  */}
 
-      <div>
+       <div>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -398,113 +350,58 @@ const Home=()=>{
       <div className="p-5"></div>
       <div className="p-4"></div>
       {/* divider */}
+{/* youtube */}
+<div className="container">
+        <div className="row">
+          <div className="col-12 col-lg-6 text-center">
+            <div className="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/UL0VAZGU6iI?rel=0"
+                title="YouTube video"
+                loading="lazy"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+            <h1 className="go-green mb-3">
+              PURE <span className="text-green">LIFE</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      {/* clients */}
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h3 className="products-head mb-3">Our Clients</h3>
+          </div>
 
-      {/* go green  */}
-
-      <div>
-        <div className="container">
-          <div className="row">
-            <div className="col-12 col-lg-6  text-center">
-              <div class="ratio ratio-16x9">
-                <iframe
-                  src="https://www.youtube.com/embed/UL0VAZGU6iI?rel=0"
-                  title="YouTube video"
-                  allowfullscreen
-                ></iframe>
+          {Array(7)
+            .fill(0)
+            .map((_, idx) => (
+              <div
+                key={idx}
+                className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  className="client-logo w-50"
+                  src={`assets/images/client/${idx + 1}.png`}
+                  alt={`Client ${idx + 1}`}
+                  loading="lazy"
+                />
               </div>
-            </div>
-            <div className="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mb-3">
-              <h1 className="go-green mb-3">
-                PURE <span className="text-green">LIFE</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-circle-fill mt-3"
-                  viewBox="0 0 16 16"
-                >
-                  <circle cx="8" cy="8" r="8" />
-                </svg>
-              </h1>
-            </div>
-          </div>
+            ))}
         </div>
       </div>
-      {/* go green ends */}
 
-      {/* divider */}
       <div className="p-5"></div>
-      <div className="p-4"></div>
-      {/* divider */}
 
-      {/* clients  */}
+      
 
-      <div>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="products-head mb-3">Our Clients</h3>
-            </div>
-
-            <div className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center text-center">
-              <img
-                className="client-logo w-50"
-                src="assets/images/client/1.png"
-                alt="ebhoom"
-              />
-            </div>
-            <div className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center text-center">
-              <img
-                className="client-logo w-50"
-                src="assets/images/client/2.png"
-                alt="ebhoom"
-              />
-            </div>
-            <div className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center text-center">
-              <img
-                className="client-logo w-50"
-                src="assets/images/client/3.png"
-                alt="ebhoom"
-              />
-            </div>
-            <div className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center text-center">
-              <img
-                className="client-logo w-50"
-                src="assets/images/client/4.png"
-                alt="ebhoom"
-              />
-            </div>
-            <div className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center text-center">
-              <img
-                className="client-logo w-50"
-                src="assets/images/client/5.png"
-                alt="ebhoom"
-              />
-            </div>
-            <div className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center text-center">
-              <img
-                className="client-logo w-50"
-                src="assets/images/client/6.png"
-                alt="ebhoom"
-              />
-            </div>
-            <div className="col-6 mb-3 col-lg-4 d-flex justify-content-center align-items-center text-center">
-              <img
-                className="client-logo w-50"
-                src="assets/images/client/7.png"
-                alt="ebhoom"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* cients ends */}
-      {/* divider */}
-      <div className="p-5"></div>
-      <div className="p-4"></div>
-      {/* divider */}
+      
     </>
   );
-}
+});
+
 export default Home;
